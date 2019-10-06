@@ -1,0 +1,1861 @@
+
+skeleton_17d.png
+size: 2048,2048
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+body
+  rotate: false
+  xy: 1442, 721
+  size: 36, 99
+  orig: 36, 99
+  offset: 0, 0
+  index: -1
+bottom/long_longblue_m/bottom_center_longblue_m
+  rotate: false
+  xy: 721, 362
+  size: 136, 198
+  orig: 136, 198
+  offset: 0, 0
+  index: -1
+bottom/long_longblue_m/bottom_left_lower_leg_longblue_m
+  rotate: false
+  xy: 817, 111
+  size: 136, 198
+  orig: 136, 198
+  offset: 0, 0
+  index: -1
+bottom/long_longblue_m/bottom_left_upper_leg_longblue_m
+  rotate: false
+  xy: 734, 876
+  size: 136, 198
+  orig: 136, 198
+  offset: 0, 0
+  index: -1
+bottom/long_longblue_m/bottom_right_lower_leg_longblue_m
+  rotate: false
+  xy: 734, 676
+  size: 136, 198
+  orig: 136, 198
+  offset: 0, 0
+  index: -1
+bottom/long_longblue_m/bottom_right_upper_leg_longblue_m
+  rotate: false
+  xy: 859, 370
+  size: 136, 198
+  orig: 136, 198
+  offset: 0, 0
+  index: -1
+bottom/long_manbasic_m/bottom_center_manbasic_m
+  rotate: false
+  xy: 955, 113
+  size: 136, 197
+  orig: 136, 197
+  offset: 0, 0
+  index: -1
+bottom/long_womanbasic_f/bottom_center_womanbasic_f
+  rotate: false
+  xy: 955, 113
+  size: 136, 197
+  orig: 136, 197
+  offset: 0, 0
+  index: -1
+bottom/long_manbasic_m/bottom_left_lower_leg_manbasic_m
+  rotate: false
+  xy: 750, 1849
+  size: 136, 197
+  orig: 136, 197
+  offset: 0, 0
+  index: -1
+bottom/long_manbasic_m/bottom_left_upper_leg_manbasic_m
+  rotate: false
+  xy: 750, 1650
+  size: 136, 197
+  orig: 136, 197
+  offset: 0, 0
+  index: -1
+bottom/long_manbasic_m/bottom_right_lower_leg_manbasic_m
+  rotate: false
+  xy: 750, 1451
+  size: 136, 197
+  orig: 136, 197
+  offset: 0, 0
+  index: -1
+bottom/long_manbasic_m/bottom_right_upper_leg_manbasic_m
+  rotate: false
+  xy: 750, 1252
+  size: 136, 197
+  orig: 136, 197
+  offset: 0, 0
+  index: -1
+bottom/long_womanbasic_f/bottom_left_lower_leg_womanbasic_f
+  rotate: false
+  xy: 872, 877
+  size: 136, 197
+  orig: 136, 197
+  offset: 0, 0
+  index: -1
+bottom/long_womanbasic_f/bottom_left_upper_leg_womanbasic_f
+  rotate: false
+  xy: 872, 678
+  size: 136, 197
+  orig: 136, 197
+  offset: 0, 0
+  index: -1
+bottom/long_womanbasic_f/bottom_right_lower_leg_womanbasic_f
+  rotate: false
+  xy: 997, 377
+  size: 136, 197
+  orig: 136, 197
+  offset: 0, 0
+  index: -1
+bottom/long_womanbasic_f/bottom_right_upper_leg_womanbasic_f
+  rotate: false
+  xy: 1093, 121
+  size: 136, 197
+  orig: 136, 197
+  offset: 0, 0
+  index: -1
+bottom/short_skyblue_m/bottom_center_skyblue_m
+  rotate: false
+  xy: 261, 107
+  size: 137, 198
+  orig: 137, 198
+  offset: 0, 0
+  index: -1
+bottom/short_skyblue_m/bottom_left_upper_leg_skyblue_m
+  rotate: false
+  xy: 400, 107
+  size: 137, 198
+  orig: 137, 198
+  offset: 0, 0
+  index: -1
+bottom/short_skyblue_m/bottom_right_upper_legskyblue_m
+  rotate: false
+  xy: 539, 107
+  size: 137, 198
+  orig: 137, 198
+  offset: 0, 0
+  index: -1
+bottom/skirt/long_f/bottom_skirt_back_long_f
+  rotate: false
+  xy: 520, 866
+  size: 212, 208
+  orig: 212, 208
+  offset: 0, 0
+  index: -1
+bottom/skirt/long_f/bottom_skirt_front_long_f
+  rotate: false
+  xy: 520, 656
+  size: 212, 208
+  orig: 212, 208
+  offset: 0, 0
+  index: -1
+bottom/skirt/long_f/bottom_skirt_left_lower_leg_long_f
+  rotate: false
+  xy: 678, 107
+  size: 137, 198
+  orig: 137, 198
+  offset: 0, 0
+  index: -1
+bottom/skirt/long_f/bottom_skirt_left_upper_leg_long_f
+  rotate: false
+  xy: 678, 107
+  size: 137, 198
+  orig: 137, 198
+  offset: 0, 0
+  index: -1
+bottom/skirt/long_f/bottom_skirt_right_lower_leg_long_f
+  rotate: false
+  xy: 678, 107
+  size: 137, 198
+  orig: 137, 198
+  offset: 0, 0
+  index: -1
+bottom/skirt/long_f/bottom_skirt_right_upper_leg_long_f
+  rotate: false
+  xy: 678, 107
+  size: 137, 198
+  orig: 137, 198
+  offset: 0, 0
+  index: -1
+female_base/female_badan/female_badan_base
+  rotate: false
+  xy: 888, 1262
+  size: 84, 157
+  orig: 84, 157
+  offset: 0, 0
+  index: -1
+female_base/female_badan/female_tangankanan/female_tangankanan1_base
+  rotate: false
+  xy: 1496, 666
+  size: 33, 76
+  orig: 33, 76
+  offset: 0, 0
+  index: -1
+female_base/female_badan/female_tangankanan/female_tangankanan2_base
+  rotate: false
+  xy: 1556, 201
+  size: 30, 65
+  orig: 30, 65
+  offset: 0, 0
+  index: -1
+female_base/female_badan/female_tangankiri/female_tangankiri1_base
+  rotate: false
+  xy: 1460, 643
+  size: 34, 76
+  orig: 34, 76
+  offset: 0, 0
+  index: -1
+female_base/female_badan/female_tangankiri/female_tangankiri2_base
+  rotate: false
+  xy: 1405, 337
+  size: 31, 65
+  orig: 31, 65
+  offset: 0, 0
+  index: -1
+female_base/female_badan/female_telapaktangan/left_hand_back_kepal_base_f
+  rotate: false
+  xy: 1373, 443
+  size: 38, 37
+  orig: 38, 37
+  offset: 0, 0
+  index: -1
+male_base/male_badan/male_telapaktangan/left_hand_back_kepal_base_m
+  rotate: false
+  xy: 1373, 443
+  size: 38, 37
+  orig: 38, 37
+  offset: 0, 0
+  index: -1
+female_base/female_badan/female_telapaktangan/left_hand_front_base_f
+  rotate: false
+  xy: 1135, 382
+  size: 38, 38
+  orig: 38, 38
+  offset: 0, 0
+  index: -1
+female_base/female_badan/female_telapaktangan/right_hand_reverse_base_f
+  rotate: false
+  xy: 1135, 382
+  size: 38, 38
+  orig: 38, 38
+  offset: 0, 0
+  index: -1
+male_base/male_badan/male_telapaktangan/left_hand_front_base_m
+  rotate: false
+  xy: 1135, 382
+  size: 38, 38
+  orig: 38, 38
+  offset: 0, 0
+  index: -1
+male_base/male_badan/male_telapaktangan/right_hand_reverse_base_m
+  rotate: false
+  xy: 1135, 382
+  size: 38, 38
+  orig: 38, 38
+  offset: 0, 0
+  index: -1
+female_base/female_badan/female_telapaktangan/left_hand_front_kepal_base_f
+  rotate: false
+  xy: 1421, 406
+  size: 36, 38
+  orig: 36, 38
+  offset: 0, 0
+  index: -1
+male_base/male_badan/male_telapaktangan/left_hand_front_kepal_base_m
+  rotate: false
+  xy: 1421, 406
+  size: 36, 38
+  orig: 36, 38
+  offset: 0, 0
+  index: -1
+female_base/female_badan/female_telapaktangan/left_hand_reverse_base_f
+  rotate: false
+  xy: 1175, 382
+  size: 38, 38
+  orig: 38, 38
+  offset: 0, 0
+  index: -1
+female_base/female_badan/female_telapaktangan/right_hand_front_base_f
+  rotate: false
+  xy: 1175, 382
+  size: 38, 38
+  orig: 38, 38
+  offset: 0, 0
+  index: -1
+male_base/male_badan/male_telapaktangan/left_hand_reverse_base_m
+  rotate: false
+  xy: 1175, 382
+  size: 38, 38
+  orig: 38, 38
+  offset: 0, 0
+  index: -1
+male_base/male_badan/male_telapaktangan/right_hand_front_base_m
+  rotate: false
+  xy: 1175, 382
+  size: 38, 38
+  orig: 38, 38
+  offset: 0, 0
+  index: -1
+female_base/female_badan/female_telapaktangan/left_hand_top_flat_base_f
+  rotate: false
+  xy: 1123, 1268
+  size: 33, 48
+  orig: 33, 48
+  offset: 0, 0
+  index: -1
+male_base/male_badan/male_telapaktangan/left_hand_top_flat_base_m
+  rotate: false
+  xy: 1123, 1268
+  size: 33, 48
+  orig: 33, 48
+  offset: 0, 0
+  index: -1
+female_base/female_badan/female_telapaktangan/left_hand_top_kepal_base_f
+  rotate: false
+  xy: 1596, 2
+  size: 27, 41
+  orig: 27, 41
+  offset: 0, 0
+  index: -1
+male_base/male_badan/male_telapaktangan/left_hand_top_kepal_base_m
+  rotate: false
+  xy: 1596, 2
+  size: 27, 41
+  orig: 27, 41
+  offset: 0, 0
+  index: -1
+female_base/female_badan/female_telapaktangan/right_hand_back_kepal_base_f
+  rotate: false
+  xy: 1381, 404
+  size: 38, 37
+  orig: 38, 37
+  offset: 0, 0
+  index: -1
+male_base/male_badan/male_telapaktangan/right_hand_back_kepal_base_m
+  rotate: false
+  xy: 1381, 404
+  size: 38, 37
+  orig: 38, 37
+  offset: 0, 0
+  index: -1
+female_base/female_badan/female_telapaktangan/right_hand_front_kepal_base_f
+  rotate: false
+  xy: 1425, 194
+  size: 36, 38
+  orig: 36, 38
+  offset: 0, 0
+  index: -1
+male_base/male_badan/male_telapaktangan/right_hand_front_kepal_base_m
+  rotate: false
+  xy: 1425, 194
+  size: 36, 38
+  orig: 36, 38
+  offset: 0, 0
+  index: -1
+female_base/female_badan/female_telapaktangan/right_hand_top_flat_base_f
+  rotate: false
+  xy: 1158, 1268
+  size: 33, 48
+  orig: 33, 48
+  offset: 0, 0
+  index: -1
+male_base/male_badan/male_telapaktangan/right_hand_top_flat_base_m
+  rotate: false
+  xy: 1158, 1268
+  size: 33, 48
+  orig: 33, 48
+  offset: 0, 0
+  index: -1
+female_base/female_badan/female_telapaktangan/right_hand_top_kepal_base_f
+  rotate: false
+  xy: 1625, 2
+  size: 27, 41
+  orig: 27, 41
+  offset: 0, 0
+  index: -1
+male_base/male_badan/male_telapaktangan/right_hand_top_kepal_base_m
+  rotate: false
+  xy: 1625, 2
+  size: 27, 41
+  orig: 27, 41
+  offset: 0, 0
+  index: -1
+female_base/female_bawah/female_kakikanan/female_kakikanan1_base
+  rotate: false
+  xy: 1438, 922
+  size: 39, 98
+  orig: 39, 98
+  offset: 0, 0
+  index: -1
+female_base/female_bawah/female_kakikanan/female_kakikanan2_base
+  rotate: false
+  xy: 1585, 530
+  size: 27, 90
+  orig: 27, 90
+  offset: 0, 0
+  index: -1
+female_base/female_bawah/female_kakikanan/female_kakikanan3_base
+  rotate: false
+  xy: 750, 1076
+  size: 61, 51
+  orig: 61, 51
+  offset: 0, 0
+  index: -1
+female_base/female_bawah/female_kakikiri/female_kakikiri1_base
+  rotate: false
+  xy: 1369, 1324
+  size: 40, 98
+  orig: 40, 98
+  offset: 0, 0
+  index: -1
+female_base/female_bawah/female_kakikiri/female_kakikiri2_base
+  rotate: false
+  xy: 1600, 332
+  size: 27, 90
+  orig: 27, 90
+  offset: 0, 0
+  index: -1
+female_base/female_bawah/female_kakikiri/female_kakikiri3_base
+  rotate: false
+  xy: 813, 1076
+  size: 61, 51
+  orig: 61, 51
+  offset: 0, 0
+  index: -1
+female_base/female_bawah/female_pinggang_base
+  rotate: false
+  xy: 1077, 320
+  size: 74, 55
+  orig: 74, 55
+  offset: 0, 0
+  index: -1
+female_base/female_kepala/female_kepala_base
+  rotate: false
+  xy: 946, 5
+  size: 126, 104
+  orig: 126, 104
+  offset: 0, 0
+  index: -1
+female_base_brown/female_badan/female_badan_brown
+  rotate: false
+  xy: 974, 1262
+  size: 84, 157
+  orig: 84, 157
+  offset: 0, 0
+  index: -1
+female_base_brown/female_badan/female_tangankanan/female_tangankanan2_brown
+  rotate: false
+  xy: 1438, 339
+  size: 31, 65
+  orig: 31, 65
+  offset: 0, 0
+  index: -1
+female_base_brown/female_badan/female_tangankiri/female_tangankiri1_brown
+  rotate: false
+  xy: 1480, 744
+  size: 34, 76
+  orig: 34, 76
+  offset: 0, 0
+  index: -1
+female_base_brown/female_badan/female_tangankiri/female_tangankiri2_brown
+  rotate: false
+  xy: 1314, 1114
+  size: 31, 65
+  orig: 31, 65
+  offset: 0, 0
+  index: -1
+female_base_brown/female_badan/female_telapaktangan/left_hand_back_kepal_brown_f
+  rotate: false
+  xy: 1449, 448
+  size: 33, 32
+  orig: 33, 32
+  offset: 0, 0
+  index: -1
+male_base_brown/male_badan/male_telapaktangan/left_hand_back_kepal_brown_m
+  rotate: false
+  xy: 1449, 448
+  size: 33, 32
+  orig: 33, 32
+  offset: 0, 0
+  index: -1
+female_base_brown/female_badan/female_telapaktangan/left_hand_front_brown_f
+  rotate: false
+  xy: 1215, 382
+  size: 38, 38
+  orig: 38, 38
+  offset: 0, 0
+  index: -1
+male_base_brown/male_badan/male_telapaktangan/left_hand_front_brown_m
+  rotate: false
+  xy: 1215, 382
+  size: 38, 38
+  orig: 38, 38
+  offset: 0, 0
+  index: -1
+female_base_brown/female_badan/female_telapaktangan/left_hand_front_kepal_brown_f
+  rotate: false
+  xy: 1407, 1289
+  size: 31, 33
+  orig: 31, 33
+  offset: 0, 0
+  index: -1
+male_base_brown/male_badan/male_telapaktangan/left_hand_front_kepal_brown_m
+  rotate: false
+  xy: 1407, 1289
+  size: 31, 33
+  orig: 31, 33
+  offset: 0, 0
+  index: -1
+female_base_brown/female_badan/female_telapaktangan/left_hand_reverse_brown_f
+  rotate: false
+  xy: 1347, 188
+  size: 37, 38
+  orig: 37, 38
+  offset: 0, 0
+  index: -1
+female_base_brown/female_badan/female_telapaktangan/right_hand_front_brown_f
+  rotate: false
+  xy: 1347, 188
+  size: 37, 38
+  orig: 37, 38
+  offset: 0, 0
+  index: -1
+male_base_brown/male_badan/male_telapaktangan/right_hand_front_brown_m
+  rotate: false
+  xy: 1347, 188
+  size: 37, 38
+  orig: 37, 38
+  offset: 0, 0
+  index: -1
+female_base_brown/female_badan/female_telapaktangan/left_hand_top_flat_brown_f
+  rotate: false
+  xy: 1193, 1268
+  size: 33, 48
+  orig: 33, 48
+  offset: 0, 0
+  index: -1
+female_base_brown/female_badan/female_telapaktangan/left_hand_top_kepal_brown_f
+  rotate: false
+  xy: 1576, 164
+  size: 23, 35
+  orig: 23, 35
+  offset: 0, 0
+  index: -1
+male_base_brown/male_badan/male_telapaktangan/left_hand_top_kepal_brown_m
+  rotate: false
+  xy: 1576, 164
+  size: 23, 35
+  orig: 23, 35
+  offset: 0, 0
+  index: -1
+female_base_brown/female_badan/female_telapaktangan/right_hand_back_kepal_brown_f
+  rotate: false
+  xy: 1459, 414
+  size: 33, 32
+  orig: 33, 32
+  offset: 0, 0
+  index: -1
+male_base_brown/male_badan/male_telapaktangan/right_hand_back_kepal_brown_m
+  rotate: false
+  xy: 1459, 414
+  size: 33, 32
+  orig: 33, 32
+  offset: 0, 0
+  index: -1
+female_base_brown/female_badan/female_telapaktangan/right_hand_front_kepal_brown_f
+  rotate: false
+  xy: 1484, 473
+  size: 31, 33
+  orig: 31, 33
+  offset: 0, 0
+  index: -1
+male_base_brown/male_badan/male_telapaktangan/right_hand_front_kepal_brown_m
+  rotate: false
+  xy: 1484, 473
+  size: 31, 33
+  orig: 31, 33
+  offset: 0, 0
+  index: -1
+female_base_brown/female_badan/female_telapaktangan/right_hand_reverse_brown_f
+  rotate: false
+  xy: 1301, 390
+  size: 38, 38
+  orig: 38, 38
+  offset: 0, 0
+  index: -1
+male_base_brown/male_badan/male_telapaktangan/right_hand_reverse_brown_m
+  rotate: false
+  xy: 1301, 390
+  size: 38, 38
+  orig: 38, 38
+  offset: 0, 0
+  index: -1
+female_base_brown/female_badan/female_telapaktangan/right_hand_top_flat_brown_f
+  rotate: false
+  xy: 1463, 191
+  size: 28, 41
+  orig: 28, 41
+  offset: 0, 0
+  index: -1
+female_base_brown/female_badan/female_telapaktangan/right_hand_top_kepal_brown_f
+  rotate: false
+  xy: 1601, 174
+  size: 23, 35
+  orig: 23, 35
+  offset: 0, 0
+  index: -1
+female_base_brown/female_bawah/female_kakikanan/female_kakikanan1_brown
+  rotate: false
+  xy: 1363, 1634
+  size: 39, 103
+  orig: 39, 103
+  offset: 0, 0
+  index: -1
+female_base_brown/female_bawah/female_kakikanan/female_kakikanan2_brown
+  rotate: false
+  xy: 1516, 751
+  size: 27, 91
+  orig: 27, 91
+  offset: 0, 0
+  index: -1
+female_base_brown/female_bawah/female_kakikanan/female_kakikanan3_brown
+  rotate: false
+  xy: 1342, 338
+  size: 61, 50
+  orig: 61, 50
+  offset: 0, 0
+  index: -1
+female_base_brown/female_bawah/female_kakikiri/female_kakikiri1_brown
+  rotate: false
+  xy: 1321, 1634
+  size: 40, 103
+  orig: 40, 103
+  offset: 0, 0
+  index: -1
+female_base_brown/female_bawah/female_kakikiri/female_kakikiri2_brown
+  rotate: false
+  xy: 1545, 752
+  size: 27, 91
+  orig: 27, 91
+  offset: 0, 0
+  index: -1
+female_base_brown/female_bawah/female_kakikiri/female_kakikiri3_brown
+  rotate: false
+  xy: 1357, 136
+  size: 61, 50
+  orig: 61, 50
+  offset: 0, 0
+  index: -1
+female_base_brown/female_bawah/female_pinggang_brown
+  rotate: false
+  xy: 1015, 1102
+  size: 73, 55
+  orig: 73, 55
+  offset: 0, 0
+  index: -1
+female_base_brown/female_kepala/female_kepala_brown
+  rotate: false
+  xy: 792, 570
+  size: 126, 104
+  orig: 126, 104
+  offset: 0, 0
+  index: -1
+female_base_selena/female_badan/female_badan_selena
+  rotate: false
+  xy: 1135, 422
+  size: 84, 157
+  orig: 84, 157
+  offset: 0, 0
+  index: -1
+female_base_selena/female_badan/female_tangankanan/female_tangankanan2_selena
+  rotate: false
+  xy: 1347, 1114
+  size: 31, 65
+  orig: 31, 65
+  offset: 0, 0
+  index: -1
+female_base_selena/female_badan/female_tangankiri/female_tangankiri1_selena
+  rotate: false
+  xy: 1471, 337
+  size: 34, 75
+  orig: 34, 75
+  offset: 0, 0
+  index: -1
+female_base_selena/female_badan/female_tangankiri/female_tangankiri2_selena
+  rotate: false
+  xy: 1380, 1114
+  size: 31, 65
+  orig: 31, 65
+  offset: 0, 0
+  index: -1
+female_base_selena/female_badan/female_telapaktangan/left_hand_back_kepal_selena_f
+  rotate: false
+  xy: 1267, 1284
+  size: 33, 32
+  orig: 33, 32
+  offset: 0, 0
+  index: -1
+female_base_selena/female_badan/female_telapaktangan/left_hand_front_kepal_selena_f
+  rotate: false
+  xy: 1494, 438
+  size: 31, 33
+  orig: 31, 33
+  offset: 0, 0
+  index: -1
+female_base_selena/female_badan/female_telapaktangan/left_hand_front_selena_f
+  rotate: false
+  xy: 1341, 390
+  size: 38, 38
+  orig: 38, 38
+  offset: 0, 0
+  index: -1
+female_base_selena/female_badan/female_telapaktangan/left_hand_reverse_selena_f
+  rotate: false
+  xy: 1386, 188
+  size: 37, 38
+  orig: 37, 38
+  offset: 0, 0
+  index: -1
+female_base_selena/female_badan/female_telapaktangan/right_hand_front_selena_f
+  rotate: false
+  xy: 1386, 188
+  size: 37, 38
+  orig: 37, 38
+  offset: 0, 0
+  index: -1
+female_base_selena/female_badan/female_telapaktangan/left_hand_top_flat_selena_f
+  rotate: false
+  xy: 1483, 148
+  size: 28, 41
+  orig: 28, 41
+  offset: 0, 0
+  index: -1
+female_base_selena/female_badan/female_telapaktangan/left_hand_top_kepal_selena_f
+  rotate: false
+  xy: 1564, 715
+  size: 23, 35
+  orig: 23, 35
+  offset: 0, 0
+  index: -1
+female_base_selena/female_badan/female_telapaktangan/right_hand_back_kepal_selena_f
+  rotate: false
+  xy: 1302, 1284
+  size: 33, 32
+  orig: 33, 32
+  offset: 0, 0
+  index: -1
+female_base_selena/female_badan/female_telapaktangan/right_hand_front_kepal_selena_f
+  rotate: false
+  xy: 1517, 473
+  size: 31, 33
+  orig: 31, 33
+  offset: 0, 0
+  index: -1
+female_base_selena/female_badan/female_telapaktangan/right_hand_reverse_selena_f
+  rotate: false
+  xy: 1255, 384
+  size: 44, 44
+  orig: 44, 44
+  offset: 0, 0
+  index: -1
+female_base_selena/female_badan/female_telapaktangan/right_hand_top_flat_selena_f
+  rotate: false
+  xy: 1493, 191
+  size: 28, 41
+  orig: 28, 41
+  offset: 0, 0
+  index: -1
+male_base_selena/male_badan/male_telapaktangan/right_hand_top_flat_selena_m
+  rotate: false
+  xy: 1493, 191
+  size: 28, 41
+  orig: 28, 41
+  offset: 0, 0
+  index: -1
+female_base_selena/female_badan/female_telapaktangan/right_hand_top_kepal_selena_f
+  rotate: false
+  xy: 1548, 554
+  size: 23, 35
+  orig: 23, 35
+  offset: 0, 0
+  index: -1
+male_base_selena/male_badan/male_telapaktangan/right_hand_top_kepal_selena_m
+  rotate: false
+  xy: 1548, 554
+  size: 23, 35
+  orig: 23, 35
+  offset: 0, 0
+  index: -1
+female_base_selena/female_bawah/female_kakikanan/female_kakikanan1_selena
+  rotate: false
+  xy: 1363, 1529
+  size: 39, 103
+  orig: 39, 103
+  offset: 0, 0
+  index: -1
+female_base_selena/female_bawah/female_kakikanan/female_kakikanan2_selena
+  rotate: false
+  xy: 1513, 268
+  size: 27, 91
+  orig: 27, 91
+  offset: 0, 0
+  index: -1
+female_base_selena/female_bawah/female_kakikanan/female_kakikanan3_selena
+  rotate: false
+  xy: 876, 1076
+  size: 61, 51
+  orig: 61, 51
+  offset: 0, 0
+  index: -1
+female_base_selena/female_bawah/female_kakikiri/female_kakikiri1_selena
+  rotate: false
+  xy: 1321, 1529
+  size: 40, 103
+  orig: 40, 103
+  offset: 0, 0
+  index: -1
+female_base_selena/female_bawah/female_kakikiri/female_kakikiri2_selena
+  rotate: false
+  xy: 1542, 268
+  size: 27, 91
+  orig: 27, 91
+  offset: 0, 0
+  index: -1
+female_base_selena/female_bawah/female_kakikiri/female_kakikiri3_selena
+  rotate: false
+  xy: 1153, 329
+  size: 61, 51
+  orig: 61, 51
+  offset: 0, 0
+  index: -1
+female_base_selena/female_bawah/female_pinggang_selena
+  rotate: false
+  xy: 1002, 319
+  size: 73, 56
+  orig: 73, 56
+  offset: 0, 0
+  index: -1
+female_base_selena/female_kepala/female_kepala_selena
+  rotate: false
+  xy: 818, 4
+  size: 126, 105
+  orig: 126, 105
+  offset: 0, 0
+  index: -1
+female_face/base/face_base_1_f
+  rotate: false
+  xy: 896, 1159
+  size: 101, 101
+  orig: 101, 101
+  offset: 0, 0
+  index: -1
+female_face/base/face_blink_f
+  rotate: false
+  xy: 999, 1159
+  size: 101, 101
+  orig: 101, 101
+  offset: 0, 0
+  index: -1
+female_face/base/face_cocky_f
+  rotate: false
+  xy: 1048, 581
+  size: 101, 101
+  orig: 101, 101
+  offset: 0, 0
+  index: -1
+female_face/base/face_estatic_f
+  rotate: false
+  xy: 1151, 581
+  size: 101, 101
+  orig: 101, 101
+  offset: 0, 0
+  index: -1
+female_face/base/face_happy_01_f
+  rotate: false
+  xy: 1254, 581
+  size: 101, 101
+  orig: 101, 101
+  offset: 0, 0
+  index: -1
+female_face/base/face_joy_f
+  rotate: false
+  xy: 1330, 23
+  size: 101, 101
+  orig: 101, 101
+  offset: 0, 0
+  index: -1
+female_face/base/face_ngedip_f
+  rotate: false
+  xy: 1307, 228
+  size: 101, 101
+  orig: 101, 101
+  offset: 0, 0
+  index: -1
+female_face/base/face_sad_f
+  rotate: false
+  xy: 1433, 33
+  size: 101, 101
+  orig: 101, 101
+  offset: 0, 0
+  index: -1
+female_face/base/face_so_estatic_f
+  rotate: false
+  xy: 1060, 1318
+  size: 101, 101
+  orig: 101, 101
+  offset: 0, 0
+  index: -1
+female_face/base/face_surprised_f
+  rotate: false
+  xy: 1102, 1163
+  size: 101, 101
+  orig: 101, 101
+  offset: 0, 0
+  index: -1
+female_face/base/face_ups_f
+  rotate: false
+  xy: 1163, 1318
+  size: 101, 101
+  orig: 101, 101
+  offset: 0, 0
+  index: -1
+female_face/base/face_workout_f
+  rotate: false
+  xy: 1205, 1165
+  size: 101, 101
+  orig: 101, 101
+  offset: 0, 0
+  index: -1
+foot_left
+  rotate: false
+  xy: 721, 307
+  size: 29, 24
+  orig: 29, 24
+  offset: 0, 0
+  index: -1
+foot_right
+  rotate: false
+  xy: 752, 307
+  size: 29, 24
+  orig: 29, 24
+  offset: 0, 0
+  index: -1
+hair_hat_mask/hair/hair_back_bald_m
+  rotate: false
+  xy: 2, 1362
+  size: 257, 341
+  orig: 257, 341
+  offset: 0, 0
+  index: -1
+hair_hat_mask/hair/hair_back_basichair_m
+  rotate: false
+  xy: 2, 1019
+  size: 257, 341
+  orig: 257, 341
+  offset: 0, 0
+  index: -1
+hair_hat_mask/hair/hair_back_longhair_f
+  rotate: false
+  xy: 261, 1705
+  size: 257, 341
+  orig: 257, 341
+  offset: 0, 0
+  index: -1
+hair_hat_mask/hair/hair_back_shortbangs1_f
+  rotate: false
+  xy: 2, 676
+  size: 257, 341
+  orig: 257, 341
+  offset: 0, 0
+  index: -1
+hair_hat_mask/hair/hair_back_shorthair1_m
+  rotate: false
+  xy: 2, 333
+  size: 257, 341
+  orig: 257, 341
+  offset: 0, 0
+  index: -1
+hair_hat_mask/hair/hair_back_twopigtails1_f
+  rotate: false
+  xy: 2, 1705
+  size: 257, 341
+  orig: 257, 341
+  offset: 0, 0
+  index: -1
+hair_hat_mask/hair/hair_front_bald_m
+  rotate: false
+  xy: 261, 1474
+  size: 257, 229
+  orig: 257, 229
+  offset: 0, 0
+  index: -1
+hair_hat_mask/hair/hair_front_basichair_m
+  rotate: false
+  xy: 261, 1243
+  size: 257, 229
+  orig: 257, 229
+  offset: 0, 0
+  index: -1
+hair_hat_mask/hair/hair_front_longhair_f
+  rotate: false
+  xy: 261, 550
+  size: 257, 229
+  orig: 257, 229
+  offset: 0, 0
+  index: -1
+hair_hat_mask/hair/hair_front_shortbangs1_f
+  rotate: false
+  xy: 261, 1012
+  size: 257, 229
+  orig: 257, 229
+  offset: 0, 0
+  index: -1
+hair_hat_mask/hair/hair_front_shorthair1_m
+  rotate: false
+  xy: 261, 781
+  size: 257, 229
+  orig: 257, 229
+  offset: 0, 0
+  index: -1
+hair_hat_mask/hair/hair_front_twopigtails1_f
+  rotate: false
+  xy: 2, 102
+  size: 257, 229
+  orig: 257, 229
+  offset: 0, 0
+  index: -1
+head
+  rotate: false
+  xy: 1165, 1106
+  size: 54, 55
+  orig: 54, 55
+  offset: 0, 0
+  index: -1
+left_hand
+  rotate: false
+  xy: 783, 311
+  size: 20, 20
+  orig: 20, 20
+  offset: 0, 0
+  index: -1
+left_lower_arm
+  rotate: false
+  xy: 1460, 586
+  size: 25, 55
+  orig: 25, 55
+  offset: 0, 0
+  index: -1
+left_lower_leg
+  rotate: false
+  xy: 1573, 517
+  size: 10, 72
+  orig: 10, 72
+  offset: 0, 0
+  index: -1
+left_upper_arm
+  rotate: false
+  xy: 1221, 1106
+  size: 25, 57
+  orig: 25, 57
+  offset: 0, 0
+  index: -1
+lower_upper_leg
+  rotate: false
+  xy: 1626, 164
+  size: 10, 74
+  orig: 10, 74
+  offset: 0, 0
+  index: -1
+male_base/male_badan/male_badan_base
+  rotate: false
+  xy: 1221, 430
+  size: 74, 149
+  orig: 74, 149
+  offset: 0, 0
+  index: -1
+male_base/male_badan/male_tangankanan/male_tangankanan1_base
+  rotate: false
+  xy: 1483, 844
+  size: 34, 76
+  orig: 34, 76
+  offset: 0, 0
+  index: -1
+male_base/male_badan/male_tangankanan/male_tangankanan2_base
+  rotate: false
+  xy: 1413, 1122
+  size: 31, 65
+  orig: 31, 65
+  offset: 0, 0
+  index: -1
+male_base/male_badan/male_tangankiri/male_tangankiri1_base
+  rotate: false
+  xy: 1476, 508
+  size: 34, 76
+  orig: 34, 76
+  offset: 0, 0
+  index: -1
+male_base/male_badan/male_tangankiri/male_tangankiri2_base
+  rotate: false
+  xy: 1446, 1122
+  size: 31, 65
+  orig: 31, 65
+  offset: 0, 0
+  index: -1
+male_base/male_bawah/male_kakikanan/male_kakikanan1_base
+  rotate: false
+  xy: 1363, 1424
+  size: 39, 103
+  orig: 39, 103
+  offset: 0, 0
+  index: -1
+male_base/male_bawah/male_kakikanan/male_kakikanan2_base
+  rotate: false
+  xy: 1604, 438
+  size: 27, 90
+  orig: 27, 90
+  offset: 0, 0
+  index: -1
+male_base/male_bawah/male_kakikanan/male_kakikanan3_base
+  rotate: false
+  xy: 1216, 329
+  size: 61, 51
+  orig: 61, 51
+  offset: 0, 0
+  index: -1
+male_base/male_bawah/male_kakikiri/male_kakikiri1_base
+  rotate: false
+  xy: 1321, 1424
+  size: 40, 103
+  orig: 40, 103
+  offset: 0, 0
+  index: -1
+male_base/male_bawah/male_kakikiri/male_kakikiri2_base
+  rotate: false
+  xy: 1620, 240
+  size: 27, 90
+  orig: 27, 90
+  offset: 0, 0
+  index: -1
+male_base/male_bawah/male_kakikiri/male_kakikiri3_base
+  rotate: false
+  xy: 1279, 331
+  size: 61, 51
+  orig: 61, 51
+  offset: 0, 0
+  index: -1
+male_base/male_bawah/male_pinggang_base
+  rotate: false
+  xy: 1090, 1102
+  size: 73, 55
+  orig: 73, 55
+  offset: 0, 0
+  index: -1
+male_base/male_kepala/male_kepala_base
+  rotate: false
+  xy: 920, 576
+  size: 126, 100
+  orig: 126, 100
+  offset: 0, 0
+  index: -1
+male_base_brown/male_badan/male_badan_brown
+  rotate: false
+  xy: 1297, 430
+  size: 74, 149
+  orig: 74, 149
+  offset: 0, 0
+  index: -1
+male_base_brown/male_badan/male_tangankanan/male_tangankanan1_brown
+  rotate: false
+  xy: 1513, 588
+  size: 33, 76
+  orig: 33, 76
+  offset: 0, 0
+  index: -1
+male_base_brown/male_badan/male_tangankanan/male_tangankanan2_brown
+  rotate: false
+  xy: 1543, 371
+  size: 30, 65
+  orig: 30, 65
+  offset: 0, 0
+  index: -1
+male_base_brown/male_badan/male_tangankiri/male_tangankiri1_brown
+  rotate: false
+  xy: 1512, 508
+  size: 34, 76
+  orig: 34, 76
+  offset: 0, 0
+  index: -1
+male_base_brown/male_badan/male_tangankiri/male_tangankiri2_brown
+  rotate: false
+  xy: 1531, 684
+  size: 31, 65
+  orig: 31, 65
+  offset: 0, 0
+  index: -1
+male_base_brown/male_badan/male_telapaktangan/left_hand_reverse_brown_m
+  rotate: false
+  xy: 1228, 1278
+  size: 37, 38
+  orig: 37, 38
+  offset: 0, 0
+  index: -1
+male_base_brown/male_badan/male_telapaktangan/left_hand_top_flat_brown_m
+  rotate: false
+  xy: 1513, 148
+  size: 28, 41
+  orig: 28, 41
+  offset: 0, 0
+  index: -1
+male_base_brown/male_badan/male_telapaktangan/right_hand_top_flat_brown_m
+  rotate: false
+  xy: 1536, 2
+  size: 28, 41
+  orig: 28, 41
+  offset: 0, 0
+  index: -1
+male_base_brown/male_badan/male_telapaktangan/right_hand_top_kepal_brown_m
+  rotate: false
+  xy: 1548, 517
+  size: 23, 35
+  orig: 23, 35
+  offset: 0, 0
+  index: -1
+male_base_brown/male_bawah/male_kakikanan/male_kakikanan1_brown
+  rotate: false
+  xy: 1442, 822
+  size: 39, 98
+  orig: 39, 98
+  offset: 0, 0
+  index: -1
+male_base_brown/male_bawah/male_kakikanan/male_kakikanan2_brown
+  rotate: false
+  xy: 1571, 278
+  size: 27, 91
+  orig: 27, 91
+  offset: 0, 0
+  index: -1
+male_base_brown/male_bawah/male_kakikanan/male_kakikanan3_brown
+  rotate: false
+  xy: 1420, 136
+  size: 61, 50
+  orig: 61, 50
+  offset: 0, 0
+  index: -1
+male_base_brown/male_bawah/male_kakikiri/male_kakikiri1_brown
+  rotate: false
+  xy: 1411, 1189
+  size: 40, 98
+  orig: 40, 98
+  offset: 0, 0
+  index: -1
+male_base_brown/male_bawah/male_kakikiri/male_kakikiri2_brown
+  rotate: false
+  xy: 1548, 591
+  size: 27, 91
+  orig: 27, 91
+  offset: 0, 0
+  index: -1
+male_base_brown/male_bawah/male_kakikiri/male_kakikiri3_brown
+  rotate: false
+  xy: 1060, 1266
+  size: 61, 50
+  orig: 61, 50
+  offset: 0, 0
+  index: -1
+male_base_brown/male_bawah/male_pinggang_brown
+  rotate: false
+  xy: 939, 1102
+  size: 74, 55
+  orig: 74, 55
+  offset: 0, 0
+  index: -1
+male_base_brown/male_kepala/male_kepala_brown
+  rotate: false
+  xy: 1202, 19
+  size: 126, 100
+  orig: 126, 100
+  offset: 0, 0
+  index: -1
+male_base_selena/male_badan/male_badan_selena
+  rotate: false
+  xy: 1231, 179
+  size: 74, 148
+  orig: 74, 148
+  offset: 0, 0
+  index: -1
+male_base_selena/male_badan/male_tangankanan/male_tangankanan1_selena
+  rotate: false
+  xy: 1519, 845
+  size: 33, 75
+  orig: 33, 75
+  offset: 0, 0
+  index: -1
+male_base_selena/male_badan/male_tangankanan/male_tangankanan2_selena
+  rotate: false
+  xy: 1588, 211
+  size: 30, 65
+  orig: 30, 65
+  offset: 0, 0
+  index: -1
+male_base_selena/male_badan/male_tangankiri/male_tangankiri1_selena
+  rotate: false
+  xy: 1507, 361
+  size: 34, 75
+  orig: 34, 75
+  offset: 0, 0
+  index: -1
+male_base_selena/male_badan/male_tangankiri/male_tangankiri2_selena
+  rotate: false
+  xy: 1523, 201
+  size: 31, 65
+  orig: 31, 65
+  offset: 0, 0
+  index: -1
+male_base_selena/male_badan/male_telapaktangan/left_hand_back_kepal_selena_m
+  rotate: false
+  xy: 1337, 1284
+  size: 33, 32
+  orig: 33, 32
+  offset: 0, 0
+  index: -1
+male_base_selena/male_badan/male_telapaktangan/left_hand_front_kepal_selena_m
+  rotate: false
+  xy: 1527, 438
+  size: 31, 33
+  orig: 31, 33
+  offset: 0, 0
+  index: -1
+male_base_selena/male_badan/male_telapaktangan/left_hand_front_selena_m
+  rotate: false
+  xy: 1307, 188
+  size: 38, 38
+  orig: 38, 38
+  offset: 0, 0
+  index: -1
+male_base_selena/male_badan/male_telapaktangan/right_hand_reverse_selena_m
+  rotate: false
+  xy: 1307, 188
+  size: 38, 38
+  orig: 38, 38
+  offset: 0, 0
+  index: -1
+male_base_selena/male_badan/male_telapaktangan/left_hand_reverse_selena_m
+  rotate: false
+  xy: 1275, 1125
+  size: 37, 38
+  orig: 37, 38
+  offset: 0, 0
+  index: -1
+male_base_selena/male_badan/male_telapaktangan/right_hand_front_selena_m
+  rotate: false
+  xy: 1275, 1125
+  size: 37, 38
+  orig: 37, 38
+  offset: 0, 0
+  index: -1
+male_base_selena/male_badan/male_telapaktangan/left_hand_top_flat_selena_m
+  rotate: false
+  xy: 1566, 2
+  size: 28, 41
+  orig: 28, 41
+  offset: 0, 0
+  index: -1
+male_base_selena/male_badan/male_telapaktangan/left_hand_top_kepal_selena_m
+  rotate: false
+  xy: 1550, 480
+  size: 23, 35
+  orig: 23, 35
+  offset: 0, 0
+  index: -1
+male_base_selena/male_badan/male_telapaktangan/right_hand_back_kepal_selena_m
+  rotate: false
+  xy: 1372, 1290
+  size: 33, 32
+  orig: 33, 32
+  offset: 0, 0
+  index: -1
+male_base_selena/male_badan/male_telapaktangan/right_hand_front_kepal_selena_m
+  rotate: false
+  xy: 1543, 166
+  size: 31, 33
+  orig: 31, 33
+  offset: 0, 0
+  index: -1
+male_base_selena/male_bawah/male_kakikanan/male_kakikanan1_selena
+  rotate: false
+  xy: 1479, 922
+  size: 39, 98
+  orig: 39, 98
+  offset: 0, 0
+  index: -1
+male_base_selena/male_bawah/male_kakikanan/male_kakikanan2_selena
+  rotate: false
+  xy: 1577, 622
+  size: 27, 91
+  orig: 27, 91
+  offset: 0, 0
+  index: -1
+male_base_selena/male_bawah/male_kakikanan/male_kakikanan3_selena
+  rotate: false
+  xy: 1231, 126
+  size: 61, 51
+  orig: 61, 51
+  offset: 0, 0
+  index: -1
+male_base_selena/male_bawah/male_kakikiri/male_kakikiri1_selena
+  rotate: false
+  xy: 1438, 1022
+  size: 40, 98
+  orig: 40, 98
+  offset: 0, 0
+  index: -1
+male_base_selena/male_bawah/male_kakikiri/male_kakikiri2_selena
+  rotate: false
+  xy: 1575, 424
+  size: 27, 91
+  orig: 27, 91
+  offset: 0, 0
+  index: -1
+male_base_selena/male_bawah/male_kakikiri/male_kakikiri3_selena
+  rotate: false
+  xy: 1294, 126
+  size: 61, 51
+  orig: 61, 51
+  offset: 0, 0
+  index: -1
+male_base_selena/male_bawah/male_pinggang_selena
+  rotate: false
+  xy: 926, 312
+  size: 74, 56
+  orig: 74, 56
+  offset: 0, 0
+  index: -1
+male_base_selena/male_kepala/male_kepala_selena
+  rotate: false
+  xy: 1074, 10
+  size: 126, 101
+  orig: 126, 101
+  offset: 0, 0
+  index: -1
+male_face/base/face_base_1_m
+  rotate: false
+  xy: 750, 1129
+  size: 144, 121
+  orig: 144, 121
+  offset: 0, 0
+  index: -1
+male_face/base/face_blink_m
+  rotate: false
+  xy: 1357, 585
+  size: 101, 101
+  orig: 101, 101
+  offset: 0, 0
+  index: -1
+male_face/base/face_cocky_m
+  rotate: false
+  xy: 1373, 482
+  size: 101, 101
+  orig: 101, 101
+  offset: 0, 0
+  index: -1
+male_face/base/face_estatic_m
+  rotate: false
+  xy: 1410, 234
+  size: 101, 101
+  orig: 101, 101
+  offset: 0, 0
+  index: -1
+male_face/base/face_happy_01_m
+  rotate: false
+  xy: 1536, 45
+  size: 101, 101
+  orig: 101, 101
+  offset: 0, 0
+  index: -1
+male_face/base/face_joy_m
+  rotate: false
+  xy: 1266, 1318
+  size: 101, 101
+  orig: 101, 101
+  offset: 0, 0
+  index: -1
+male_face/base/face_ngedip_m
+  rotate: false
+  xy: 1308, 1181
+  size: 101, 101
+  orig: 101, 101
+  offset: 0, 0
+  index: -1
+male_face/base/face_sad_m
+  rotate: false
+  xy: 1335, 1011
+  size: 101, 101
+  orig: 101, 101
+  offset: 0, 0
+  index: -1
+male_face/base/face_so_estatic_m
+  rotate: false
+  xy: 1335, 908
+  size: 101, 101
+  orig: 101, 101
+  offset: 0, 0
+  index: -1
+male_face/base/face_surprised_m
+  rotate: false
+  xy: 1321, 1945
+  size: 101, 101
+  orig: 101, 101
+  offset: 0, 0
+  index: -1
+male_face/base/face_ups_m
+  rotate: false
+  xy: 1321, 1842
+  size: 101, 101
+  orig: 101, 101
+  offset: 0, 0
+  index: -1
+male_face/base/face_workout_m
+  rotate: false
+  xy: 1321, 1739
+  size: 101, 101
+  orig: 101, 101
+  offset: 0, 0
+  index: -1
+right_hand
+  rotate: false
+  xy: 805, 311
+  size: 20, 20
+  orig: 20, 20
+  offset: 0, 0
+  index: -1
+right_lower_arm
+  rotate: false
+  xy: 1487, 586
+  size: 24, 55
+  orig: 24, 55
+  offset: 0, 0
+  index: -1
+right_lower_leg
+  rotate: false
+  xy: 1629, 364
+  size: 10, 72
+  orig: 10, 72
+  offset: 0, 0
+  index: -1
+right_upper_arm
+  rotate: false
+  xy: 1248, 1106
+  size: 25, 57
+  orig: 25, 57
+  offset: 0, 0
+  index: -1
+right_upper_leg
+  rotate: false
+  xy: 1638, 164
+  size: 10, 74
+  orig: 10, 74
+  offset: 0, 0
+  index: -1
+shadow
+  rotate: false
+  xy: 721, 333
+  size: 203, 27
+  orig: 203, 27
+  offset: 0, 0
+  index: -1
+shoes/sktcherblack_m/shoes_left_sktcherblack_m
+  rotate: false
+  xy: 2, 8
+  size: 270, 92
+  orig: 270, 92
+  offset: 0, 0
+  index: -1
+shoes/sktcherblack_m/shoes_right_sktcherblack_m
+  rotate: false
+  xy: 274, 13
+  size: 270, 92
+  orig: 270, 92
+  offset: 0, 0
+  index: -1
+shoes/sktcherblack_m/shoes_socks_left_sktcherblack_m
+  rotate: false
+  xy: 546, 13
+  size: 270, 92
+  orig: 270, 92
+  offset: 0, 0
+  index: -1
+shoes/sktcherblack_m/shoes_socks_right_sktcherblack_m
+  rotate: false
+  xy: 520, 562
+  size: 270, 92
+  orig: 270, 92
+  offset: 0, 0
+  index: -1
+top/dress_long_womanbasicclothes3_f/top_center_womanbasicclothes3_f
+  rotate: false
+  xy: 261, 307
+  size: 228, 241
+  orig: 228, 241
+  offset: 0, 0
+  index: -1
+top/dress_short_womanbasicclothes3_f/top_center_womanbasicclothes3_f
+  rotate: false
+  xy: 261, 307
+  size: 228, 241
+  orig: 228, 241
+  offset: 0, 0
+  index: -1
+top/dress_long_womanbasicclothes3_f/top_left_lower_arm_womanbasicclothes3_f
+  rotate: false
+  xy: 1010, 684
+  size: 106, 207
+  orig: 106, 207
+  offset: 0, 0
+  index: -1
+top/dress_long_womanbasicclothes3_f/top_left_upper_arm_womanbasicclothes3_f
+  rotate: false
+  xy: 1118, 684
+  size: 106, 207
+  orig: 106, 207
+  offset: 0, 0
+  index: -1
+top/dress_short_womanbasicclothes3_f/top_left_upper_arm_womanbasicclothes3_f
+  rotate: false
+  xy: 1118, 684
+  size: 106, 207
+  orig: 106, 207
+  offset: 0, 0
+  index: -1
+top/dress_long_womanbasicclothes3_f/top_right_lower_arm_womanbasicclothes3_f
+  rotate: false
+  xy: 1119, 893
+  size: 106, 207
+  orig: 106, 207
+  offset: 0, 0
+  index: -1
+top/dress_long_womanbasicclothes3_f/top_right_upper_arm_womanbasicclothes3_f
+  rotate: false
+  xy: 1226, 684
+  size: 106, 207
+  orig: 106, 207
+  offset: 0, 0
+  index: -1
+top/dress_short_womanbasicclothes3_f/top_right_upper_arm_womanbasicclothes3_f
+  rotate: false
+  xy: 1226, 684
+  size: 106, 207
+  orig: 106, 207
+  offset: 0, 0
+  index: -1
+top/long_manbasic_m/top_center_manbasic_m
+  rotate: false
+  xy: 491, 307
+  size: 228, 241
+  orig: 228, 241
+  offset: 0, 0
+  index: -1
+top/short_manbasic_m/top_center_manbasic_m
+  rotate: false
+  xy: 491, 307
+  size: 228, 241
+  orig: 228, 241
+  offset: 0, 0
+  index: -1
+top/long_manbasic_m/top_left_lower_arm_manbasic_m
+  rotate: false
+  xy: 997, 1839
+  size: 106, 207
+  orig: 106, 207
+  offset: 0, 0
+  index: -1
+top/long_manbasic_m/top_right_lower_arm_manbasic_m
+  rotate: false
+  xy: 997, 1839
+  size: 106, 207
+  orig: 106, 207
+  offset: 0, 0
+  index: -1
+top/long_womanbasic_f/top_left_lower_arm_womanbasic_f
+  rotate: false
+  xy: 997, 1839
+  size: 106, 207
+  orig: 106, 207
+  offset: 0, 0
+  index: -1
+top/long_womanbasic_f/top_right_lower_arm_womanbasic_f
+  rotate: false
+  xy: 997, 1839
+  size: 106, 207
+  orig: 106, 207
+  offset: 0, 0
+  index: -1
+top/long_manbasic_m/top_left_upper_arm_manbasic_m
+  rotate: false
+  xy: 997, 1630
+  size: 106, 207
+  orig: 106, 207
+  offset: 0, 0
+  index: -1
+top/short_manbasic_m/top_left_upper_arm_manbasic_m
+  rotate: false
+  xy: 997, 1630
+  size: 106, 207
+  orig: 106, 207
+  offset: 0, 0
+  index: -1
+top/long_manbasic_m/top_right_upper_arm_manbasic_m
+  rotate: false
+  xy: 997, 1421
+  size: 106, 207
+  orig: 106, 207
+  offset: 0, 0
+  index: -1
+top/short_manbasic_m/top_right_upper_arm_manbasic_m
+  rotate: false
+  xy: 997, 1421
+  size: 106, 207
+  orig: 106, 207
+  offset: 0, 0
+  index: -1
+top/long_pink_m/top_center_pink_m
+  rotate: false
+  xy: 520, 1805
+  size: 228, 241
+  orig: 228, 241
+  offset: 0, 0
+  index: -1
+top/long_pink_m/top_left_lower_arm_pink_m
+  rotate: false
+  xy: 888, 1839
+  size: 107, 207
+  orig: 107, 207
+  offset: 0, 0
+  index: -1
+top/long_pink_m/top_left_upper_arm_pink_m
+  rotate: false
+  xy: 888, 1630
+  size: 107, 207
+  orig: 107, 207
+  offset: 0, 0
+  index: -1
+top/long_pink_m/top_right_lower_arm_pink_m
+  rotate: false
+  xy: 1105, 1839
+  size: 106, 207
+  orig: 106, 207
+  offset: 0, 0
+  index: -1
+top/long_pink_m/top_right_upper_arm_pink_m
+  rotate: false
+  xy: 1105, 1630
+  size: 106, 207
+  orig: 106, 207
+  offset: 0, 0
+  index: -1
+top/long_seablue_m/top_center_seablue_m
+  rotate: false
+  xy: 520, 1562
+  size: 228, 241
+  orig: 228, 241
+  offset: 0, 0
+  index: -1
+top/long_seablue_m/top_left_lower_arm_seablue_m
+  rotate: false
+  xy: 888, 1421
+  size: 107, 207
+  orig: 107, 207
+  offset: 0, 0
+  index: -1
+top/long_seablue_m/top_left_upper_arm_seablue_m
+  rotate: false
+  xy: 1010, 893
+  size: 107, 207
+  orig: 107, 207
+  offset: 0, 0
+  index: -1
+top/long_seablue_m/top_right_lower_arm_seablue_m
+  rotate: false
+  xy: 1105, 1421
+  size: 106, 207
+  orig: 106, 207
+  offset: 0, 0
+  index: -1
+top/long_seablue_m/top_right_upper_arm_seablue_m
+  rotate: false
+  xy: 1227, 897
+  size: 106, 207
+  orig: 106, 207
+  offset: 0, 0
+  index: -1
+top/long_womanbasic_f/top_center_womanbasic_f
+  rotate: false
+  xy: 520, 1319
+  size: 228, 241
+  orig: 228, 241
+  offset: 0, 0
+  index: -1
+top/short_womanbasic_f/top_center_womanbasic_f
+  rotate: false
+  xy: 520, 1319
+  size: 228, 241
+  orig: 228, 241
+  offset: 0, 0
+  index: -1
+top/long_womanbasic_f/top_left_upper_arm_womanbasic_f
+  rotate: false
+  xy: 1334, 688
+  size: 106, 207
+  orig: 106, 207
+  offset: 0, 0
+  index: -1
+top/short_womanbasic_f/top_left_upper_arm_womanbasic_f
+  rotate: false
+  xy: 1334, 688
+  size: 106, 207
+  orig: 106, 207
+  offset: 0, 0
+  index: -1
+top/long_womanbasic_f/top_right_upper_arm_womanbasic_f
+  rotate: false
+  xy: 1213, 1839
+  size: 106, 207
+  orig: 106, 207
+  offset: 0, 0
+  index: -1
+top/short_womanbasic_f/top_right_upper_arm_womanbasic_f
+  rotate: false
+  xy: 1213, 1839
+  size: 106, 207
+  orig: 106, 207
+  offset: 0, 0
+  index: -1
+top/short_skyblue_m/top_center_skyblue_m
+  rotate: false
+  xy: 520, 1076
+  size: 228, 241
+  orig: 228, 241
+  offset: 0, 0
+  index: -1
+top/short_skyblue_m/top_left_upper_arm_skyblue_m
+  rotate: false
+  xy: 1213, 1630
+  size: 106, 207
+  orig: 106, 207
+  offset: 0, 0
+  index: -1
+top/short_skyblue_m/top_right_upper_arm_skyblue_m
+  rotate: false
+  xy: 1213, 1421
+  size: 106, 207
+  orig: 106, 207
+  offset: 0, 0
+  index: -1
+waist
+  rotate: false
+  xy: 1413, 446
+  size: 34, 34
+  orig: 34, 34
+  offset: 0, 0
+  index: -1

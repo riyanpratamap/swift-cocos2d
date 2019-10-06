@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7D4A035B00301EE00821EE41 /* Pods_Avatar_ExperimentTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 043A32C3FE226B21306D3C5C /* Pods_Avatar_ExperimentTests.framework */; };
+		7FBC938DB48B01A4E05ABEEF /* Pods_Avatar_ExperimentUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 243F5C0F813359F8F14052BA /* Pods_Avatar_ExperimentUITests.framework */; };
+		8B76E6303D6B06098C5DF2A7 /* Pods_Avatar_Experiment.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C906D5A7B00ED68EA859A612 /* Pods_Avatar_Experiment.framework */; };
 		DAFCDFA52349D05200E90F23 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAFCDFA42349D05200E90F23 /* AppDelegate.swift */; };
 		DAFCDFA72349D05200E90F23 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAFCDFA62349D05200E90F23 /* ViewController.swift */; };
 		DAFCDFAA2349D05200E90F23 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DAFCDFA82349D05200E90F23 /* Main.storyboard */; };
@@ -14,6 +17,60 @@
 		DAFCDFAF2349D05300E90F23 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DAFCDFAD2349D05300E90F23 /* LaunchScreen.storyboard */; };
 		DAFCDFBA2349D05400E90F23 /* Avatar_ExperimentTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAFCDFB92349D05400E90F23 /* Avatar_ExperimentTests.swift */; };
 		DAFCDFC52349D05400E90F23 /* Avatar_ExperimentUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAFCDFC42349D05400E90F23 /* Avatar_ExperimentUITests.swift */; };
+		DAFCDFD72349D11F00E90F23 /* skeleton_17d.json in Resources */ = {isa = PBXBuildFile; fileRef = DAFCDFD42349D11F00E90F23 /* skeleton_17d.json */; };
+		DAFCDFD82349D11F00E90F23 /* skeleton_17d.atlas in Resources */ = {isa = PBXBuildFile; fileRef = DAFCDFD52349D11F00E90F23 /* skeleton_17d.atlas */; };
+		DAFCDFD92349D11F00E90F23 /* skeleton_17d.png in Resources */ = {isa = PBXBuildFile; fileRef = DAFCDFD62349D11F00E90F23 /* skeleton_17d.png */; };
+		DAFCDFDF2349D13600E90F23 /* AvatarNode.m in Sources */ = {isa = PBXBuildFile; fileRef = DAFCDFDC2349D13600E90F23 /* AvatarNode.m */; };
+		DAFCDFE02349D13600E90F23 /* AvatarSkinEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAFCDFDD2349D13600E90F23 /* AvatarSkinEnum.swift */; };
+		DAFCDFE12349D13600E90F23 /* GLViewManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAFCDFDE2349D13600E90F23 /* GLViewManager.swift */; };
+		DAFCE0462349D16700E90F23 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = DAFCDFE32349D16700E90F23 /* LICENSE */; };
+		DAFCE0472349D16700E90F23 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = DAFCDFE42349D16700E90F23 /* README.md */; };
+		DAFCE0482349D16700E90F23 /* SkeletonAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = DAFCDFEB2349D16700E90F23 /* SkeletonAnimation.m */; };
+		DAFCE0492349D16700E90F23 /* GLUtils.c in Sources */ = {isa = PBXBuildFile; fileRef = DAFCDFEC2349D16700E90F23 /* GLUtils.c */; };
+		DAFCE04A2349D16700E90F23 /* SkeletonRenderer.m in Sources */ = {isa = PBXBuildFile; fileRef = DAFCDFED2349D16700E90F23 /* SkeletonRenderer.m */; };
+		DAFCE04B2349D16700E90F23 /* spine-cocos2d-objc.m in Sources */ = {isa = PBXBuildFile; fileRef = DAFCDFEE2349D16700E90F23 /* spine-cocos2d-objc.m */; };
+		DAFCE04C2349D16700E90F23 /* AttachmentLoader.c in Sources */ = {isa = PBXBuildFile; fileRef = DAFCE01D2349D16700E90F23 /* AttachmentLoader.c */; };
+		DAFCE04D2349D16700E90F23 /* Json.c in Sources */ = {isa = PBXBuildFile; fileRef = DAFCE01E2349D16700E90F23 /* Json.c */; };
+		DAFCE04E2349D16700E90F23 /* Skeleton.c in Sources */ = {isa = PBXBuildFile; fileRef = DAFCE01F2349D16700E90F23 /* Skeleton.c */; };
+		DAFCE04F2349D16700E90F23 /* extension.c in Sources */ = {isa = PBXBuildFile; fileRef = DAFCE0202349D16700E90F23 /* extension.c */; };
+		DAFCE0502349D16700E90F23 /* PathConstraintData.c in Sources */ = {isa = PBXBuildFile; fileRef = DAFCE0212349D16700E90F23 /* PathConstraintData.c */; };
+		DAFCE0512349D16700E90F23 /* Array.c in Sources */ = {isa = PBXBuildFile; fileRef = DAFCE0222349D16700E90F23 /* Array.c */; };
+		DAFCE0522349D16700E90F23 /* TransformConstraintData.c in Sources */ = {isa = PBXBuildFile; fileRef = DAFCE0232349D16700E90F23 /* TransformConstraintData.c */; };
+		DAFCE0532349D16700E90F23 /* SkeletonBinary.c in Sources */ = {isa = PBXBuildFile; fileRef = DAFCE0242349D16700E90F23 /* SkeletonBinary.c */; };
+		DAFCE0542349D16700E90F23 /* VertexEffect.c in Sources */ = {isa = PBXBuildFile; fileRef = DAFCE0252349D16700E90F23 /* VertexEffect.c */; };
+		DAFCE0552349D16700E90F23 /* Skin.c in Sources */ = {isa = PBXBuildFile; fileRef = DAFCE0262349D16700E90F23 /* Skin.c */; };
+		DAFCE0562349D16700E90F23 /* SkeletonData.c in Sources */ = {isa = PBXBuildFile; fileRef = DAFCE0272349D16700E90F23 /* SkeletonData.c */; };
+		DAFCE0572349D16700E90F23 /* BoundingBoxAttachment.c in Sources */ = {isa = PBXBuildFile; fileRef = DAFCE0282349D16700E90F23 /* BoundingBoxAttachment.c */; };
+		DAFCE0582349D16700E90F23 /* IkConstraint.c in Sources */ = {isa = PBXBuildFile; fileRef = DAFCE0292349D16700E90F23 /* IkConstraint.c */; };
+		DAFCE0592349D16700E90F23 /* PathConstraint.c in Sources */ = {isa = PBXBuildFile; fileRef = DAFCE02A2349D16700E90F23 /* PathConstraint.c */; };
+		DAFCE05A2349D16700E90F23 /* RGAtlasAttachmentLoader.c in Sources */ = {isa = PBXBuildFile; fileRef = DAFCE02B2349D16700E90F23 /* RGAtlasAttachmentLoader.c */; };
+		DAFCE05B2349D16700E90F23 /* MeshAttachment.c in Sources */ = {isa = PBXBuildFile; fileRef = DAFCE02C2349D16700E90F23 /* MeshAttachment.c */; };
+		DAFCE05C2349D16700E90F23 /* AnimationState.c in Sources */ = {isa = PBXBuildFile; fileRef = DAFCE02D2349D16700E90F23 /* AnimationState.c */; };
+		DAFCE05D2349D16700E90F23 /* AtlasAttachmentLoader.c in Sources */ = {isa = PBXBuildFile; fileRef = DAFCE02E2349D16700E90F23 /* AtlasAttachmentLoader.c */; };
+		DAFCE05E2349D16700E90F23 /* BoneData.c in Sources */ = {isa = PBXBuildFile; fileRef = DAFCE02F2349D16700E90F23 /* BoneData.c */; };
+		DAFCE05F2349D16700E90F23 /* SkeletonBounds.c in Sources */ = {isa = PBXBuildFile; fileRef = DAFCE0302349D16700E90F23 /* SkeletonBounds.c */; };
+		DAFCE0602349D16700E90F23 /* Slot.c in Sources */ = {isa = PBXBuildFile; fileRef = DAFCE0312349D16700E90F23 /* Slot.c */; };
+		DAFCE0612349D16700E90F23 /* EventData.c in Sources */ = {isa = PBXBuildFile; fileRef = DAFCE0322349D16700E90F23 /* EventData.c */; };
+		DAFCE0622349D16700E90F23 /* SlotData.c in Sources */ = {isa = PBXBuildFile; fileRef = DAFCE0332349D16700E90F23 /* SlotData.c */; };
+		DAFCE0632349D16700E90F23 /* Animation.c in Sources */ = {isa = PBXBuildFile; fileRef = DAFCE0342349D16700E90F23 /* Animation.c */; };
+		DAFCE0642349D16700E90F23 /* Event.c in Sources */ = {isa = PBXBuildFile; fileRef = DAFCE0362349D16700E90F23 /* Event.c */; };
+		DAFCE0652349D16700E90F23 /* PointAttachment.c in Sources */ = {isa = PBXBuildFile; fileRef = DAFCE0372349D16700E90F23 /* PointAttachment.c */; };
+		DAFCE0662349D16700E90F23 /* Bone.c in Sources */ = {isa = PBXBuildFile; fileRef = DAFCE0382349D16700E90F23 /* Bone.c */; };
+		DAFCE0672349D16700E90F23 /* Atlas.c in Sources */ = {isa = PBXBuildFile; fileRef = DAFCE0392349D16700E90F23 /* Atlas.c */; };
+		DAFCE0682349D16700E90F23 /* PathAttachment.c in Sources */ = {isa = PBXBuildFile; fileRef = DAFCE03A2349D16700E90F23 /* PathAttachment.c */; };
+		DAFCE0692349D16700E90F23 /* SkeletonClipping.c in Sources */ = {isa = PBXBuildFile; fileRef = DAFCE03B2349D16700E90F23 /* SkeletonClipping.c */; };
+		DAFCE06A2349D16700E90F23 /* ClippingAttachment.c in Sources */ = {isa = PBXBuildFile; fileRef = DAFCE03C2349D16700E90F23 /* ClippingAttachment.c */; };
+		DAFCE06B2349D16700E90F23 /* VertexAttachment.c in Sources */ = {isa = PBXBuildFile; fileRef = DAFCE03D2349D16700E90F23 /* VertexAttachment.c */; };
+		DAFCE06C2349D16700E90F23 /* SkeletonJson.c in Sources */ = {isa = PBXBuildFile; fileRef = DAFCE03E2349D16700E90F23 /* SkeletonJson.c */; };
+		DAFCE06D2349D16700E90F23 /* AnimationStateData.c in Sources */ = {isa = PBXBuildFile; fileRef = DAFCE03F2349D16700E90F23 /* AnimationStateData.c */; };
+		DAFCE06E2349D16700E90F23 /* IkConstraintData.c in Sources */ = {isa = PBXBuildFile; fileRef = DAFCE0402349D16700E90F23 /* IkConstraintData.c */; };
+		DAFCE06F2349D16700E90F23 /* TransformConstraint.c in Sources */ = {isa = PBXBuildFile; fileRef = DAFCE0412349D16700E90F23 /* TransformConstraint.c */; };
+		DAFCE0702349D16700E90F23 /* Color.c in Sources */ = {isa = PBXBuildFile; fileRef = DAFCE0422349D16700E90F23 /* Color.c */; };
+		DAFCE0712349D16700E90F23 /* Triangulator.c in Sources */ = {isa = PBXBuildFile; fileRef = DAFCE0432349D16700E90F23 /* Triangulator.c */; };
+		DAFCE0722349D16700E90F23 /* Attachment.c in Sources */ = {isa = PBXBuildFile; fileRef = DAFCE0442349D16700E90F23 /* Attachment.c */; };
+		DAFCE0732349D16700E90F23 /* RegionAttachment.c in Sources */ = {isa = PBXBuildFile; fileRef = DAFCE0452349D16700E90F23 /* RegionAttachment.c */; };
+		DAFCE0822349D22300E90F23 /* libcocos2d.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DAFCE07D2349D19400E90F23 /* libcocos2d.a */; };
+		DAFCE08D2349D80D00E90F23 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = DAFCE08C2349D80D00E90F23 /* libz.tbd */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,9 +88,37 @@
 			remoteGlobalIDString = DAFCDFA02349D05200E90F23;
 			remoteInfo = "Avatar-Experiment";
 		};
+		DAFCE07C2349D19400E90F23 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DAFCE0752349D19400E90F23 /* cocos2d.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 5018F24D0DFDEAC400C013A5;
+			remoteInfo = "cocos2d-ios";
+		};
+		DAFCE07E2349D19400E90F23 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DAFCE0752349D19400E90F23 /* cocos2d.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 7A4037A819E37038007B6E8F;
+			remoteInfo = "cocos2d-mac";
+		};
+		DAFCE0802349D19400E90F23 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DAFCE0752349D19400E90F23 /* cocos2d.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 08F4AB671C6E98A1004DAAF7;
+			remoteInfo = "cocos2d-tvos";
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		043A32C3FE226B21306D3C5C /* Pods_Avatar_ExperimentTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Avatar_ExperimentTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0B35B07EA2A1E3E88D99CABD /* Pods-Avatar-Experiment.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Avatar-Experiment.debug.xcconfig"; path = "Target Support Files/Pods-Avatar-Experiment/Pods-Avatar-Experiment.debug.xcconfig"; sourceTree = "<group>"; };
+		1A4A3CDC99DF1F1C3D648E56 /* Pods-Avatar-Experiment.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Avatar-Experiment.release.xcconfig"; path = "Target Support Files/Pods-Avatar-Experiment/Pods-Avatar-Experiment.release.xcconfig"; sourceTree = "<group>"; };
+		243F5C0F813359F8F14052BA /* Pods_Avatar_ExperimentUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Avatar_ExperimentUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		46D6736223ECD5D41EC27092 /* Pods-Avatar-ExperimentUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Avatar-ExperimentUITests.debug.xcconfig"; path = "Target Support Files/Pods-Avatar-ExperimentUITests/Pods-Avatar-ExperimentUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		9D5872805679907204A7A33E /* Pods-Avatar-ExperimentTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Avatar-ExperimentTests.release.xcconfig"; path = "Target Support Files/Pods-Avatar-ExperimentTests/Pods-Avatar-ExperimentTests.release.xcconfig"; sourceTree = "<group>"; };
+		C906D5A7B00ED68EA859A612 /* Pods_Avatar_Experiment.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Avatar_Experiment.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DAFCDFA12349D05200E90F23 /* Avatar-Experiment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Avatar-Experiment.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DAFCDFA42349D05200E90F23 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DAFCDFA62349D05200E90F23 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +132,110 @@
 		DAFCDFC02349D05400E90F23 /* Avatar-ExperimentUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Avatar-ExperimentUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DAFCDFC42349D05400E90F23 /* Avatar_ExperimentUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Avatar_ExperimentUITests.swift; sourceTree = "<group>"; };
 		DAFCDFC62349D05400E90F23 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DAFCDFD42349D11F00E90F23 /* skeleton_17d.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = skeleton_17d.json; sourceTree = "<group>"; };
+		DAFCDFD52349D11F00E90F23 /* skeleton_17d.atlas */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = skeleton_17d.atlas; sourceTree = "<group>"; };
+		DAFCDFD62349D11F00E90F23 /* skeleton_17d.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = skeleton_17d.png; sourceTree = "<group>"; };
+		DAFCDFDA2349D13500E90F23 /* Avatar-Experiment-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Avatar-Experiment-Bridging-Header.h"; sourceTree = "<group>"; };
+		DAFCDFDB2349D13500E90F23 /* AvatarNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AvatarNode.h; sourceTree = "<group>"; };
+		DAFCDFDC2349D13600E90F23 /* AvatarNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AvatarNode.m; sourceTree = "<group>"; };
+		DAFCDFDD2349D13600E90F23 /* AvatarSkinEnum.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AvatarSkinEnum.swift; sourceTree = "<group>"; };
+		DAFCDFDE2349D13600E90F23 /* GLViewManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GLViewManager.swift; sourceTree = "<group>"; };
+		DAFCDFE32349D16700E90F23 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		DAFCDFE42349D16700E90F23 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		DAFCDFE72349D16700E90F23 /* GLUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GLUtils.h; sourceTree = "<group>"; };
+		DAFCDFE82349D16700E90F23 /* SkeletonAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkeletonAnimation.h; sourceTree = "<group>"; };
+		DAFCDFE92349D16700E90F23 /* SkeletonRenderer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkeletonRenderer.h; sourceTree = "<group>"; };
+		DAFCDFEA2349D16700E90F23 /* spine-cocos2d-objc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "spine-cocos2d-objc.h"; sourceTree = "<group>"; };
+		DAFCDFEB2349D16700E90F23 /* SkeletonAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SkeletonAnimation.m; sourceTree = "<group>"; };
+		DAFCDFEC2349D16700E90F23 /* GLUtils.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = GLUtils.c; sourceTree = "<group>"; };
+		DAFCDFED2349D16700E90F23 /* SkeletonRenderer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SkeletonRenderer.m; sourceTree = "<group>"; };
+		DAFCDFEE2349D16700E90F23 /* spine-cocos2d-objc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "spine-cocos2d-objc.m"; sourceTree = "<group>"; };
+		DAFCDFF22349D16700E90F23 /* Animation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Animation.h; sourceTree = "<group>"; };
+		DAFCDFF32349D16700E90F23 /* EventData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EventData.h; sourceTree = "<group>"; };
+		DAFCDFF42349D16700E90F23 /* SlotData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SlotData.h; sourceTree = "<group>"; };
+		DAFCDFF52349D16700E90F23 /* SkeletonClipping.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkeletonClipping.h; sourceTree = "<group>"; };
+		DAFCDFF62349D16700E90F23 /* PathAttachment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PathAttachment.h; sourceTree = "<group>"; };
+		DAFCDFF72349D16700E90F23 /* PointAttachment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PointAttachment.h; sourceTree = "<group>"; };
+		DAFCDFF82349D16700E90F23 /* Event.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Event.h; sourceTree = "<group>"; };
+		DAFCDFF92349D16700E90F23 /* Bone.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Bone.h; sourceTree = "<group>"; };
+		DAFCDFFA2349D16700E90F23 /* Atlas.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Atlas.h; sourceTree = "<group>"; };
+		DAFCDFFB2349D16700E90F23 /* VertexAttachment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VertexAttachment.h; sourceTree = "<group>"; };
+		DAFCDFFC2349D16700E90F23 /* spine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = spine.h; sourceTree = "<group>"; };
+		DAFCDFFD2349D16700E90F23 /* ClippingAttachment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ClippingAttachment.h; sourceTree = "<group>"; };
+		DAFCDFFE2349D16700E90F23 /* Color.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Color.h; sourceTree = "<group>"; };
+		DAFCDFFF2349D16700E90F23 /* Triangulator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Triangulator.h; sourceTree = "<group>"; };
+		DAFCE0002349D16700E90F23 /* RegionAttachment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegionAttachment.h; sourceTree = "<group>"; };
+		DAFCE0012349D16700E90F23 /* Attachment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Attachment.h; sourceTree = "<group>"; };
+		DAFCE0022349D16700E90F23 /* TransformConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TransformConstraint.h; sourceTree = "<group>"; };
+		DAFCE0032349D16700E90F23 /* dll.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = dll.h; sourceTree = "<group>"; };
+		DAFCE0042349D16700E90F23 /* SkeletonJson.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkeletonJson.h; sourceTree = "<group>"; };
+		DAFCE0052349D16700E90F23 /* IkConstraintData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IkConstraintData.h; sourceTree = "<group>"; };
+		DAFCE0062349D16700E90F23 /* AnimationStateData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnimationStateData.h; sourceTree = "<group>"; };
+		DAFCE0072349D16700E90F23 /* Skeleton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Skeleton.h; sourceTree = "<group>"; };
+		DAFCE0082349D16700E90F23 /* AttachmentLoader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AttachmentLoader.h; sourceTree = "<group>"; };
+		DAFCE0092349D16700E90F23 /* Skin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Skin.h; sourceTree = "<group>"; };
+		DAFCE00A2349D16700E90F23 /* VertexEffect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VertexEffect.h; sourceTree = "<group>"; };
+		DAFCE00B2349D16700E90F23 /* SkeletonBinary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkeletonBinary.h; sourceTree = "<group>"; };
+		DAFCE00C2349D16700E90F23 /* SkeletonData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkeletonData.h; sourceTree = "<group>"; };
+		DAFCE00D2349D16700E90F23 /* Array.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Array.h; sourceTree = "<group>"; };
+		DAFCE00E2349D16700E90F23 /* PathConstraintData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PathConstraintData.h; sourceTree = "<group>"; };
+		DAFCE00F2349D16700E90F23 /* TransformConstraintData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TransformConstraintData.h; sourceTree = "<group>"; };
+		DAFCE0102349D16700E90F23 /* extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = extension.h; sourceTree = "<group>"; };
+		DAFCE0112349D16700E90F23 /* RGAtlasAttachmentLoader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RGAtlasAttachmentLoader.h; sourceTree = "<group>"; };
+		DAFCE0122349D16700E90F23 /* PathConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PathConstraint.h; sourceTree = "<group>"; };
+		DAFCE0132349D16700E90F23 /* IkConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IkConstraint.h; sourceTree = "<group>"; };
+		DAFCE0142349D16700E90F23 /* BoundingBoxAttachment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BoundingBoxAttachment.h; sourceTree = "<group>"; };
+		DAFCE0152349D16700E90F23 /* SkeletonBounds.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkeletonBounds.h; sourceTree = "<group>"; };
+		DAFCE0162349D16700E90F23 /* Slot.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Slot.h; sourceTree = "<group>"; };
+		DAFCE0172349D16700E90F23 /* BoneData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BoneData.h; sourceTree = "<group>"; };
+		DAFCE0182349D16700E90F23 /* AnimationState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnimationState.h; sourceTree = "<group>"; };
+		DAFCE0192349D16700E90F23 /* MeshAttachment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MeshAttachment.h; sourceTree = "<group>"; };
+		DAFCE01A2349D16700E90F23 /* AtlasAttachmentLoader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AtlasAttachmentLoader.h; sourceTree = "<group>"; };
+		DAFCE01D2349D16700E90F23 /* AttachmentLoader.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = AttachmentLoader.c; sourceTree = "<group>"; };
+		DAFCE01E2349D16700E90F23 /* Json.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = Json.c; sourceTree = "<group>"; };
+		DAFCE01F2349D16700E90F23 /* Skeleton.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = Skeleton.c; sourceTree = "<group>"; };
+		DAFCE0202349D16700E90F23 /* extension.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = extension.c; sourceTree = "<group>"; };
+		DAFCE0212349D16700E90F23 /* PathConstraintData.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = PathConstraintData.c; sourceTree = "<group>"; };
+		DAFCE0222349D16700E90F23 /* Array.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = Array.c; sourceTree = "<group>"; };
+		DAFCE0232349D16700E90F23 /* TransformConstraintData.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = TransformConstraintData.c; sourceTree = "<group>"; };
+		DAFCE0242349D16700E90F23 /* SkeletonBinary.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = SkeletonBinary.c; sourceTree = "<group>"; };
+		DAFCE0252349D16700E90F23 /* VertexEffect.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = VertexEffect.c; sourceTree = "<group>"; };
+		DAFCE0262349D16700E90F23 /* Skin.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = Skin.c; sourceTree = "<group>"; };
+		DAFCE0272349D16700E90F23 /* SkeletonData.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = SkeletonData.c; sourceTree = "<group>"; };
+		DAFCE0282349D16700E90F23 /* BoundingBoxAttachment.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = BoundingBoxAttachment.c; sourceTree = "<group>"; };
+		DAFCE0292349D16700E90F23 /* IkConstraint.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = IkConstraint.c; sourceTree = "<group>"; };
+		DAFCE02A2349D16700E90F23 /* PathConstraint.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = PathConstraint.c; sourceTree = "<group>"; };
+		DAFCE02B2349D16700E90F23 /* RGAtlasAttachmentLoader.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = RGAtlasAttachmentLoader.c; sourceTree = "<group>"; };
+		DAFCE02C2349D16700E90F23 /* MeshAttachment.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = MeshAttachment.c; sourceTree = "<group>"; };
+		DAFCE02D2349D16700E90F23 /* AnimationState.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = AnimationState.c; sourceTree = "<group>"; };
+		DAFCE02E2349D16700E90F23 /* AtlasAttachmentLoader.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = AtlasAttachmentLoader.c; sourceTree = "<group>"; };
+		DAFCE02F2349D16700E90F23 /* BoneData.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = BoneData.c; sourceTree = "<group>"; };
+		DAFCE0302349D16700E90F23 /* SkeletonBounds.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = SkeletonBounds.c; sourceTree = "<group>"; };
+		DAFCE0312349D16700E90F23 /* Slot.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = Slot.c; sourceTree = "<group>"; };
+		DAFCE0322349D16700E90F23 /* EventData.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = EventData.c; sourceTree = "<group>"; };
+		DAFCE0332349D16700E90F23 /* SlotData.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = SlotData.c; sourceTree = "<group>"; };
+		DAFCE0342349D16700E90F23 /* Animation.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = Animation.c; sourceTree = "<group>"; };
+		DAFCE0352349D16700E90F23 /* Json.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Json.h; sourceTree = "<group>"; };
+		DAFCE0362349D16700E90F23 /* Event.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = Event.c; sourceTree = "<group>"; };
+		DAFCE0372349D16700E90F23 /* PointAttachment.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = PointAttachment.c; sourceTree = "<group>"; };
+		DAFCE0382349D16700E90F23 /* Bone.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = Bone.c; sourceTree = "<group>"; };
+		DAFCE0392349D16700E90F23 /* Atlas.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = Atlas.c; sourceTree = "<group>"; };
+		DAFCE03A2349D16700E90F23 /* PathAttachment.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = PathAttachment.c; sourceTree = "<group>"; };
+		DAFCE03B2349D16700E90F23 /* SkeletonClipping.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = SkeletonClipping.c; sourceTree = "<group>"; };
+		DAFCE03C2349D16700E90F23 /* ClippingAttachment.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ClippingAttachment.c; sourceTree = "<group>"; };
+		DAFCE03D2349D16700E90F23 /* VertexAttachment.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = VertexAttachment.c; sourceTree = "<group>"; };
+		DAFCE03E2349D16700E90F23 /* SkeletonJson.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = SkeletonJson.c; sourceTree = "<group>"; };
+		DAFCE03F2349D16700E90F23 /* AnimationStateData.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = AnimationStateData.c; sourceTree = "<group>"; };
+		DAFCE0402349D16700E90F23 /* IkConstraintData.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = IkConstraintData.c; sourceTree = "<group>"; };
+		DAFCE0412349D16700E90F23 /* TransformConstraint.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = TransformConstraint.c; sourceTree = "<group>"; };
+		DAFCE0422349D16700E90F23 /* Color.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = Color.c; sourceTree = "<group>"; };
+		DAFCE0432349D16700E90F23 /* Triangulator.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = Triangulator.c; sourceTree = "<group>"; };
+		DAFCE0442349D16700E90F23 /* Attachment.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = Attachment.c; sourceTree = "<group>"; };
+		DAFCE0452349D16700E90F23 /* RegionAttachment.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = RegionAttachment.c; sourceTree = "<group>"; };
+		DAFCE0752349D19400E90F23 /* cocos2d.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = cocos2d.xcodeproj; sourceTree = "<group>"; };
+		DAFCE08C2349D80D00E90F23 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		F4C3365F8B7921221660ECE8 /* Pods-Avatar-ExperimentTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Avatar-ExperimentTests.debug.xcconfig"; path = "Target Support Files/Pods-Avatar-ExperimentTests/Pods-Avatar-ExperimentTests.debug.xcconfig"; sourceTree = "<group>"; };
+		FF47FD832F8D45668CDEFE59 /* Pods-Avatar-ExperimentUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Avatar-ExperimentUITests.release.xcconfig"; path = "Target Support Files/Pods-Avatar-ExperimentUITests/Pods-Avatar-ExperimentUITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +243,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DAFCE08D2349D80D00E90F23 /* libz.tbd in Frameworks */,
+				DAFCE0822349D22300E90F23 /* libcocos2d.a in Frameworks */,
+				8B76E6303D6B06098C5DF2A7 /* Pods_Avatar_Experiment.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +253,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7D4A035B00301EE00821EE41 /* Pods_Avatar_ExperimentTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,19 +261,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7FBC938DB48B01A4E05ABEEF /* Pods_Avatar_ExperimentUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A4AD4999E20DE4529337F4A7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0B35B07EA2A1E3E88D99CABD /* Pods-Avatar-Experiment.debug.xcconfig */,
+				1A4A3CDC99DF1F1C3D648E56 /* Pods-Avatar-Experiment.release.xcconfig */,
+				F4C3365F8B7921221660ECE8 /* Pods-Avatar-ExperimentTests.debug.xcconfig */,
+				9D5872805679907204A7A33E /* Pods-Avatar-ExperimentTests.release.xcconfig */,
+				46D6736223ECD5D41EC27092 /* Pods-Avatar-ExperimentUITests.debug.xcconfig */,
+				FF47FD832F8D45668CDEFE59 /* Pods-Avatar-ExperimentUITests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		DAFCDF982349D05200E90F23 = {
 			isa = PBXGroup;
 			children = (
+				DAFCDFD22349D0BF00E90F23 /* Resources */,
 				DAFCDFA32349D05200E90F23 /* Avatar-Experiment */,
 				DAFCDFB82349D05400E90F23 /* Avatar-ExperimentTests */,
 				DAFCDFC32349D05400E90F23 /* Avatar-ExperimentUITests */,
 				DAFCDFA22349D05200E90F23 /* Products */,
+				A4AD4999E20DE4529337F4A7 /* Pods */,
+				ED8891651BBFC7AE1B20932C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -98,11 +308,16 @@
 			isa = PBXGroup;
 			children = (
 				DAFCDFA42349D05200E90F23 /* AppDelegate.swift */,
+				DAFCDFDB2349D13500E90F23 /* AvatarNode.h */,
+				DAFCDFDC2349D13600E90F23 /* AvatarNode.m */,
+				DAFCDFDD2349D13600E90F23 /* AvatarSkinEnum.swift */,
+				DAFCDFDE2349D13600E90F23 /* GLViewManager.swift */,
 				DAFCDFA62349D05200E90F23 /* ViewController.swift */,
 				DAFCDFA82349D05200E90F23 /* Main.storyboard */,
 				DAFCDFAB2349D05300E90F23 /* Assets.xcassets */,
 				DAFCDFAD2349D05300E90F23 /* LaunchScreen.storyboard */,
 				DAFCDFB02349D05300E90F23 /* Info.plist */,
+				DAFCDFDA2349D13500E90F23 /* Avatar-Experiment-Bridging-Header.h */,
 			);
 			path = "Avatar-Experiment";
 			sourceTree = "<group>";
@@ -125,6 +340,210 @@
 			path = "Avatar-ExperimentUITests";
 			sourceTree = "<group>";
 		};
+		DAFCDFD22349D0BF00E90F23 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				DAFCE0742349D18600E90F23 /* cocos2d */,
+				DAFCDFEF2349D16700E90F23 /* spine-c */,
+				DAFCDFE22349D16700E90F23 /* spine-cocos2d-objc */,
+				DAFCDFD32349D10800E90F23 /* SpineAsset */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		DAFCDFD32349D10800E90F23 /* SpineAsset */ = {
+			isa = PBXGroup;
+			children = (
+				DAFCDFD52349D11F00E90F23 /* skeleton_17d.atlas */,
+				DAFCDFD42349D11F00E90F23 /* skeleton_17d.json */,
+				DAFCDFD62349D11F00E90F23 /* skeleton_17d.png */,
+			);
+			path = SpineAsset;
+			sourceTree = "<group>";
+		};
+		DAFCDFE22349D16700E90F23 /* spine-cocos2d-objc */ = {
+			isa = PBXGroup;
+			children = (
+				DAFCDFE32349D16700E90F23 /* LICENSE */,
+				DAFCDFE42349D16700E90F23 /* README.md */,
+				DAFCDFE52349D16700E90F23 /* src */,
+			);
+			path = "spine-cocos2d-objc";
+			sourceTree = "<group>";
+		};
+		DAFCDFE52349D16700E90F23 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				DAFCDFE62349D16700E90F23 /* spine */,
+			);
+			path = src;
+			sourceTree = "<group>";
+		};
+		DAFCDFE62349D16700E90F23 /* spine */ = {
+			isa = PBXGroup;
+			children = (
+				DAFCDFE72349D16700E90F23 /* GLUtils.h */,
+				DAFCDFE82349D16700E90F23 /* SkeletonAnimation.h */,
+				DAFCDFE92349D16700E90F23 /* SkeletonRenderer.h */,
+				DAFCDFEA2349D16700E90F23 /* spine-cocos2d-objc.h */,
+				DAFCDFEB2349D16700E90F23 /* SkeletonAnimation.m */,
+				DAFCDFEC2349D16700E90F23 /* GLUtils.c */,
+				DAFCDFED2349D16700E90F23 /* SkeletonRenderer.m */,
+				DAFCDFEE2349D16700E90F23 /* spine-cocos2d-objc.m */,
+			);
+			path = spine;
+			sourceTree = "<group>";
+		};
+		DAFCDFEF2349D16700E90F23 /* spine-c */ = {
+			isa = PBXGroup;
+			children = (
+				DAFCDFF02349D16700E90F23 /* include */,
+				DAFCE01B2349D16700E90F23 /* src */,
+			);
+			path = "spine-c";
+			sourceTree = "<group>";
+		};
+		DAFCDFF02349D16700E90F23 /* include */ = {
+			isa = PBXGroup;
+			children = (
+				DAFCDFF12349D16700E90F23 /* spine */,
+			);
+			path = include;
+			sourceTree = "<group>";
+		};
+		DAFCDFF12349D16700E90F23 /* spine */ = {
+			isa = PBXGroup;
+			children = (
+				DAFCDFF22349D16700E90F23 /* Animation.h */,
+				DAFCDFF32349D16700E90F23 /* EventData.h */,
+				DAFCDFF42349D16700E90F23 /* SlotData.h */,
+				DAFCDFF52349D16700E90F23 /* SkeletonClipping.h */,
+				DAFCDFF62349D16700E90F23 /* PathAttachment.h */,
+				DAFCDFF72349D16700E90F23 /* PointAttachment.h */,
+				DAFCDFF82349D16700E90F23 /* Event.h */,
+				DAFCDFF92349D16700E90F23 /* Bone.h */,
+				DAFCDFFA2349D16700E90F23 /* Atlas.h */,
+				DAFCDFFB2349D16700E90F23 /* VertexAttachment.h */,
+				DAFCDFFC2349D16700E90F23 /* spine.h */,
+				DAFCDFFD2349D16700E90F23 /* ClippingAttachment.h */,
+				DAFCDFFE2349D16700E90F23 /* Color.h */,
+				DAFCDFFF2349D16700E90F23 /* Triangulator.h */,
+				DAFCE0002349D16700E90F23 /* RegionAttachment.h */,
+				DAFCE0012349D16700E90F23 /* Attachment.h */,
+				DAFCE0022349D16700E90F23 /* TransformConstraint.h */,
+				DAFCE0032349D16700E90F23 /* dll.h */,
+				DAFCE0042349D16700E90F23 /* SkeletonJson.h */,
+				DAFCE0052349D16700E90F23 /* IkConstraintData.h */,
+				DAFCE0062349D16700E90F23 /* AnimationStateData.h */,
+				DAFCE0072349D16700E90F23 /* Skeleton.h */,
+				DAFCE0082349D16700E90F23 /* AttachmentLoader.h */,
+				DAFCE0092349D16700E90F23 /* Skin.h */,
+				DAFCE00A2349D16700E90F23 /* VertexEffect.h */,
+				DAFCE00B2349D16700E90F23 /* SkeletonBinary.h */,
+				DAFCE00C2349D16700E90F23 /* SkeletonData.h */,
+				DAFCE00D2349D16700E90F23 /* Array.h */,
+				DAFCE00E2349D16700E90F23 /* PathConstraintData.h */,
+				DAFCE00F2349D16700E90F23 /* TransformConstraintData.h */,
+				DAFCE0102349D16700E90F23 /* extension.h */,
+				DAFCE0112349D16700E90F23 /* RGAtlasAttachmentLoader.h */,
+				DAFCE0122349D16700E90F23 /* PathConstraint.h */,
+				DAFCE0132349D16700E90F23 /* IkConstraint.h */,
+				DAFCE0142349D16700E90F23 /* BoundingBoxAttachment.h */,
+				DAFCE0152349D16700E90F23 /* SkeletonBounds.h */,
+				DAFCE0162349D16700E90F23 /* Slot.h */,
+				DAFCE0172349D16700E90F23 /* BoneData.h */,
+				DAFCE0182349D16700E90F23 /* AnimationState.h */,
+				DAFCE0192349D16700E90F23 /* MeshAttachment.h */,
+				DAFCE01A2349D16700E90F23 /* AtlasAttachmentLoader.h */,
+			);
+			path = spine;
+			sourceTree = "<group>";
+		};
+		DAFCE01B2349D16700E90F23 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				DAFCE01C2349D16700E90F23 /* spine */,
+			);
+			path = src;
+			sourceTree = "<group>";
+		};
+		DAFCE01C2349D16700E90F23 /* spine */ = {
+			isa = PBXGroup;
+			children = (
+				DAFCE01D2349D16700E90F23 /* AttachmentLoader.c */,
+				DAFCE01E2349D16700E90F23 /* Json.c */,
+				DAFCE01F2349D16700E90F23 /* Skeleton.c */,
+				DAFCE0202349D16700E90F23 /* extension.c */,
+				DAFCE0212349D16700E90F23 /* PathConstraintData.c */,
+				DAFCE0222349D16700E90F23 /* Array.c */,
+				DAFCE0232349D16700E90F23 /* TransformConstraintData.c */,
+				DAFCE0242349D16700E90F23 /* SkeletonBinary.c */,
+				DAFCE0252349D16700E90F23 /* VertexEffect.c */,
+				DAFCE0262349D16700E90F23 /* Skin.c */,
+				DAFCE0272349D16700E90F23 /* SkeletonData.c */,
+				DAFCE0282349D16700E90F23 /* BoundingBoxAttachment.c */,
+				DAFCE0292349D16700E90F23 /* IkConstraint.c */,
+				DAFCE02A2349D16700E90F23 /* PathConstraint.c */,
+				DAFCE02B2349D16700E90F23 /* RGAtlasAttachmentLoader.c */,
+				DAFCE02C2349D16700E90F23 /* MeshAttachment.c */,
+				DAFCE02D2349D16700E90F23 /* AnimationState.c */,
+				DAFCE02E2349D16700E90F23 /* AtlasAttachmentLoader.c */,
+				DAFCE02F2349D16700E90F23 /* BoneData.c */,
+				DAFCE0302349D16700E90F23 /* SkeletonBounds.c */,
+				DAFCE0312349D16700E90F23 /* Slot.c */,
+				DAFCE0322349D16700E90F23 /* EventData.c */,
+				DAFCE0332349D16700E90F23 /* SlotData.c */,
+				DAFCE0342349D16700E90F23 /* Animation.c */,
+				DAFCE0352349D16700E90F23 /* Json.h */,
+				DAFCE0362349D16700E90F23 /* Event.c */,
+				DAFCE0372349D16700E90F23 /* PointAttachment.c */,
+				DAFCE0382349D16700E90F23 /* Bone.c */,
+				DAFCE0392349D16700E90F23 /* Atlas.c */,
+				DAFCE03A2349D16700E90F23 /* PathAttachment.c */,
+				DAFCE03B2349D16700E90F23 /* SkeletonClipping.c */,
+				DAFCE03C2349D16700E90F23 /* ClippingAttachment.c */,
+				DAFCE03D2349D16700E90F23 /* VertexAttachment.c */,
+				DAFCE03E2349D16700E90F23 /* SkeletonJson.c */,
+				DAFCE03F2349D16700E90F23 /* AnimationStateData.c */,
+				DAFCE0402349D16700E90F23 /* IkConstraintData.c */,
+				DAFCE0412349D16700E90F23 /* TransformConstraint.c */,
+				DAFCE0422349D16700E90F23 /* Color.c */,
+				DAFCE0432349D16700E90F23 /* Triangulator.c */,
+				DAFCE0442349D16700E90F23 /* Attachment.c */,
+				DAFCE0452349D16700E90F23 /* RegionAttachment.c */,
+			);
+			path = spine;
+			sourceTree = "<group>";
+		};
+		DAFCE0742349D18600E90F23 /* cocos2d */ = {
+			isa = PBXGroup;
+			children = (
+				DAFCE0752349D19400E90F23 /* cocos2d.xcodeproj */,
+			);
+			path = cocos2d;
+			sourceTree = "<group>";
+		};
+		DAFCE0762349D19400E90F23 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DAFCE07D2349D19400E90F23 /* libcocos2d.a */,
+				DAFCE07F2349D19400E90F23 /* libcocos2d-mac.a */,
+				DAFCE0812349D19400E90F23 /* libcocos2d-tvos.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ED8891651BBFC7AE1B20932C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DAFCE08C2349D80D00E90F23 /* libz.tbd */,
+				C906D5A7B00ED68EA859A612 /* Pods_Avatar_Experiment.framework */,
+				043A32C3FE226B21306D3C5C /* Pods_Avatar_ExperimentTests.framework */,
+				243F5C0F813359F8F14052BA /* Pods_Avatar_ExperimentUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,6 +551,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DAFCDFC92349D05400E90F23 /* Build configuration list for PBXNativeTarget "Avatar-Experiment" */;
 			buildPhases = (
+				AA8CB091DEA722467C5B8A34 /* [CP] Check Pods Manifest.lock */,
 				DAFCDF9D2349D05200E90F23 /* Sources */,
 				DAFCDF9E2349D05200E90F23 /* Frameworks */,
 				DAFCDF9F2349D05200E90F23 /* Resources */,
@@ -149,6 +569,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DAFCDFCC2349D05400E90F23 /* Build configuration list for PBXNativeTarget "Avatar-ExperimentTests" */;
 			buildPhases = (
+				FF7505E73BFBC5E0CDF4FBC0 /* [CP] Check Pods Manifest.lock */,
 				DAFCDFB12349D05400E90F23 /* Sources */,
 				DAFCDFB22349D05400E90F23 /* Frameworks */,
 				DAFCDFB32349D05400E90F23 /* Resources */,
@@ -167,6 +588,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DAFCDFCF2349D05400E90F23 /* Build configuration list for PBXNativeTarget "Avatar-ExperimentUITests" */;
 			buildPhases = (
+				2F1D0800B2200E3DFE524D93 /* [CP] Check Pods Manifest.lock */,
 				DAFCDFBC2349D05400E90F23 /* Sources */,
 				DAFCDFBD2349D05400E90F23 /* Frameworks */,
 				DAFCDFBE2349D05400E90F23 /* Resources */,
@@ -193,6 +615,7 @@
 				TargetAttributes = {
 					DAFCDFA02349D05200E90F23 = {
 						CreatedOnToolsVersion = 10.3;
+						LastSwiftMigration = 1030;
 					};
 					DAFCDFB42349D05400E90F23 = {
 						CreatedOnToolsVersion = 10.3;
@@ -215,6 +638,12 @@
 			mainGroup = DAFCDF982349D05200E90F23;
 			productRefGroup = DAFCDFA22349D05200E90F23 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = DAFCE0762349D19400E90F23 /* Products */;
+					ProjectRef = DAFCE0752349D19400E90F23 /* cocos2d.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				DAFCDFA02349D05200E90F23 /* Avatar-Experiment */,
@@ -224,14 +653,43 @@
 		};
 /* End PBXProject section */
 
+/* Begin PBXReferenceProxy section */
+		DAFCE07D2349D19400E90F23 /* libcocos2d.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libcocos2d.a;
+			remoteRef = DAFCE07C2349D19400E90F23 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		DAFCE07F2349D19400E90F23 /* libcocos2d-mac.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libcocos2d-mac.a";
+			remoteRef = DAFCE07E2349D19400E90F23 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		DAFCE0812349D19400E90F23 /* libcocos2d-tvos.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libcocos2d-tvos.a";
+			remoteRef = DAFCE0802349D19400E90F23 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
 /* Begin PBXResourcesBuildPhase section */
 		DAFCDF9F2349D05200E90F23 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				DAFCDFAF2349D05300E90F23 /* LaunchScreen.storyboard in Resources */,
+				DAFCDFD72349D11F00E90F23 /* skeleton_17d.json in Resources */,
 				DAFCDFAC2349D05300E90F23 /* Assets.xcassets in Resources */,
+				DAFCE0462349D16700E90F23 /* LICENSE in Resources */,
 				DAFCDFAA2349D05200E90F23 /* Main.storyboard in Resources */,
+				DAFCDFD82349D11F00E90F23 /* skeleton_17d.atlas in Resources */,
+				DAFCE0472349D16700E90F23 /* README.md in Resources */,
+				DAFCDFD92349D11F00E90F23 /* skeleton_17d.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -251,13 +709,129 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		2F1D0800B2200E3DFE524D93 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Avatar-ExperimentUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AA8CB091DEA722467C5B8A34 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Avatar-Experiment-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FF7505E73BFBC5E0CDF4FBC0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Avatar-ExperimentTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		DAFCDF9D2349D05200E90F23 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DAFCE06C2349D16700E90F23 /* SkeletonJson.c in Sources */,
+				DAFCE0712349D16700E90F23 /* Triangulator.c in Sources */,
+				DAFCE05D2349D16700E90F23 /* AtlasAttachmentLoader.c in Sources */,
+				DAFCE0612349D16700E90F23 /* EventData.c in Sources */,
+				DAFCE05E2349D16700E90F23 /* BoneData.c in Sources */,
+				DAFCE0672349D16700E90F23 /* Atlas.c in Sources */,
+				DAFCE0722349D16700E90F23 /* Attachment.c in Sources */,
+				DAFCE05A2349D16700E90F23 /* RGAtlasAttachmentLoader.c in Sources */,
+				DAFCE05B2349D16700E90F23 /* MeshAttachment.c in Sources */,
+				DAFCDFE02349D13600E90F23 /* AvatarSkinEnum.swift in Sources */,
+				DAFCE0652349D16700E90F23 /* PointAttachment.c in Sources */,
+				DAFCE0662349D16700E90F23 /* Bone.c in Sources */,
+				DAFCE0572349D16700E90F23 /* BoundingBoxAttachment.c in Sources */,
+				DAFCE04D2349D16700E90F23 /* Json.c in Sources */,
+				DAFCE0642349D16700E90F23 /* Event.c in Sources */,
+				DAFCE04C2349D16700E90F23 /* AttachmentLoader.c in Sources */,
+				DAFCE05C2349D16700E90F23 /* AnimationState.c in Sources */,
+				DAFCE04A2349D16700E90F23 /* SkeletonRenderer.m in Sources */,
+				DAFCE0542349D16700E90F23 /* VertexEffect.c in Sources */,
+				DAFCE06F2349D16700E90F23 /* TransformConstraint.c in Sources */,
+				DAFCDFE12349D13600E90F23 /* GLViewManager.swift in Sources */,
+				DAFCE0562349D16700E90F23 /* SkeletonData.c in Sources */,
+				DAFCE0522349D16700E90F23 /* TransformConstraintData.c in Sources */,
+				DAFCE0692349D16700E90F23 /* SkeletonClipping.c in Sources */,
+				DAFCE0532349D16700E90F23 /* SkeletonBinary.c in Sources */,
+				DAFCE0702349D16700E90F23 /* Color.c in Sources */,
+				DAFCE05F2349D16700E90F23 /* SkeletonBounds.c in Sources */,
+				DAFCE0492349D16700E90F23 /* GLUtils.c in Sources */,
+				DAFCE04B2349D16700E90F23 /* spine-cocos2d-objc.m in Sources */,
+				DAFCE04F2349D16700E90F23 /* extension.c in Sources */,
+				DAFCE06E2349D16700E90F23 /* IkConstraintData.c in Sources */,
 				DAFCDFA72349D05200E90F23 /* ViewController.swift in Sources */,
+				DAFCE06B2349D16700E90F23 /* VertexAttachment.c in Sources */,
+				DAFCE0732349D16700E90F23 /* RegionAttachment.c in Sources */,
+				DAFCE0682349D16700E90F23 /* PathAttachment.c in Sources */,
+				DAFCE0552349D16700E90F23 /* Skin.c in Sources */,
+				DAFCE06D2349D16700E90F23 /* AnimationStateData.c in Sources */,
+				DAFCE04E2349D16700E90F23 /* Skeleton.c in Sources */,
+				DAFCE0622349D16700E90F23 /* SlotData.c in Sources */,
+				DAFCE0582349D16700E90F23 /* IkConstraint.c in Sources */,
+				DAFCE0482349D16700E90F23 /* SkeletonAnimation.m in Sources */,
+				DAFCE0592349D16700E90F23 /* PathConstraint.c in Sources */,
+				DAFCE0602349D16700E90F23 /* Slot.c in Sources */,
+				DAFCE0502349D16700E90F23 /* PathConstraintData.c in Sources */,
+				DAFCE0512349D16700E90F23 /* Array.c in Sources */,
+				DAFCE06A2349D16700E90F23 /* ClippingAttachment.c in Sources */,
 				DAFCDFA52349D05200E90F23 /* AppDelegate.swift in Sources */,
+				DAFCDFDF2349D13600E90F23 /* AvatarNode.m in Sources */,
+				DAFCE0632349D16700E90F23 /* Animation.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -430,10 +1004,21 @@
 		};
 		DAFCDFCA2349D05400E90F23 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0B35B07EA2A1E3E88D99CABD /* Pods-Avatar-Experiment.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = NO;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = GVZVUY66BX;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"${SRCROOT}/Resources/cocos2d/cocos2d/**",
+					"${SRCROOT}/Resources/cocos2d/Chipmunk/Chipmunk/objectivec/include",
+					"${SRCROOT}/Resources/cocos2d/Chipmunk/Chipmunk/chipmunk/include",
+					"${SRCROOT}/Resources/spine-c/include",
+					"${SRCROOT}/Resources/spine-cocos2d-objc/src",
+				);
 				INFOPLIST_FILE = "Avatar-Experiment/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -441,6 +1026,9 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "id.akirah.rg.Avatar-Experiment";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_INSTALL_OBJC_HEADER = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "Avatar-Experiment/Avatar-Experiment-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -448,10 +1036,21 @@
 		};
 		DAFCDFCB2349D05400E90F23 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1A4A3CDC99DF1F1C3D648E56 /* Pods-Avatar-Experiment.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = NO;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = GVZVUY66BX;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"${SRCROOT}/Resources/cocos2d/cocos2d/**",
+					"${SRCROOT}/Resources/cocos2d/Chipmunk/Chipmunk/objectivec/include",
+					"${SRCROOT}/Resources/cocos2d/Chipmunk/Chipmunk/chipmunk/include",
+					"${SRCROOT}/Resources/spine-c/include",
+					"${SRCROOT}/Resources/spine-cocos2d-objc/src",
+				);
 				INFOPLIST_FILE = "Avatar-Experiment/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -459,6 +1058,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "id.akirah.rg.Avatar-Experiment";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_INSTALL_OBJC_HEADER = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "Avatar-Experiment/Avatar-Experiment-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -466,6 +1067,7 @@
 		};
 		DAFCDFCD2349D05400E90F23 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F4C3365F8B7921221660ECE8 /* Pods-Avatar-ExperimentTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -487,6 +1089,7 @@
 		};
 		DAFCDFCE2349D05400E90F23 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9D5872805679907204A7A33E /* Pods-Avatar-ExperimentTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -508,6 +1111,7 @@
 		};
 		DAFCDFD02349D05400E90F23 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 46D6736223ECD5D41EC27092 /* Pods-Avatar-ExperimentUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -528,6 +1132,7 @@
 		};
 		DAFCDFD12349D05400E90F23 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FF47FD832F8D45668CDEFE59 /* Pods-Avatar-ExperimentUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
