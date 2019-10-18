@@ -19,30 +19,19 @@
     return self;
 }
 
-+ (CCScene*)sceneWithScale:(double)scale withAtlases:(NSArray*)atlases andSkins:(nullable NSArray*)skins {
-    return [[AvatarNode alloc] initWithAtlases:atlases withScale:scale andSkin:skins];
++ (CCScene*)sceneWithScale:(double)scale andSkins:(nullable NSArray*)skins {
+    return [[AvatarNode alloc] initwithScale:scale];
 }
 
-- (id)initWithAtlases:(NSArray*)atlases withScale:(double)scale andSkin:(NSArray*)skins {
+- (CCScene*)initwithScale:(double)scale {
     self = [super init];
     if (!self) return nil;
     
     // load your skeleton atlas here
-    spAtlas *arrayOfAtlas[] = {};
-    int i;
-    for (i=0; i<atlases.count; i++) {
-        arrayOfAtlas[i] = spAtlas_createFromFile([atlases[i] UTF8String], 0);
-    }
-    spRGAtlasAttachmentLoader *attachmentLoader = spRGAtlasAttachmentLoader_create(arrayOfAtlas, 2);
-    
-    // Your atlases has been loaded. Now create your skin
-    
-    // create your skeleton json here
-    spSkeletonJson *myJson = spSkeletonJson_createWithLoader(SUPER(attachmentLoader));
-    myJson->scale = scale;
-    
-    // create your skeletonData here
-    spSkeletonData* skeletonData = spSkeletonJson_readSkeletonDataFile(myJson, [@"skeleton_17d.json" UTF8String]);
+    spAtlas *atlas = spAtlas_createFromFile("skeleton_17d.atlas", 0);
+    spSkeletonJson *json = spSkeletonJson_create(atlas);
+    json->scale = 0.3;
+    spSkeletonData* skeletonData = spSkeletonJson_readSkeletonDataFile(json, "skeleton_17d.atlas");
     
     NSString *faceSkin = @"face_basic_male";
     NSString *colorSkin = @"skin_light_male";
@@ -88,24 +77,24 @@
         hairSkin = ([sex isEqualToNumber:[NSNumber numberWithInt:1]]) ? @"hair_hat_mask_basiclong_m" : @"hair_hat_mask_basiclong_f";
     }
     
-    // iterate trough input array of skins
-    for (PairOfSkin *data in skins) {
-        if ([[data getType] isEqualToString:[AvatarSkinTypeEnum Face]]) {
-            faceSkin = [data getSkin];
-        } else if ([[data getType] isEqualToString:[AvatarSkinTypeEnum SkinColor]]) {
-            colorSkin = [data getSkin];
-        } else if ([[data getType] isEqualToString:[AvatarSkinTypeEnum HairType]]) {
-            hairSkin = [data getSkin];
-        } else if ([[data getType] isEqualToString:[AvatarSkinTypeEnum Top]]) {
-            topSkin = [data getSkin];
-        } else if ([[data getType] isEqualToString:[AvatarSkinTypeEnum Bottom]]) {
-            bottomSkin = [data getSkin];
-        } else if ([[data getType] isEqualToString:[AvatarSkinTypeEnum Shoes]]) {
-            shoesSkin = [data getSkin];
-        } else {
-            NSLog(@"Cannot recognize skin type");
-        }
-    }
+//    // iterate trough input array of skins
+//    for (PairOfSkin *data in skins) {
+//        if ([[data getType] isEqualToString:[AvatarSkinTypeEnum Face]]) {
+//            faceSkin = [data getSkin];
+//        } else if ([[data getType] isEqualToString:[AvatarSkinTypeEnum SkinColor]]) {
+//            colorSkin = [data getSkin];
+//        } else if ([[data getType] isEqualToString:[AvatarSkinTypeEnum HairType]]) {
+//            hairSkin = [data getSkin];
+//        } else if ([[data getType] isEqualToString:[AvatarSkinTypeEnum Top]]) {
+//            topSkin = [data getSkin];
+//        } else if ([[data getType] isEqualToString:[AvatarSkinTypeEnum Bottom]]) {
+//            bottomSkin = [data getSkin];
+//        } else if ([[data getType] isEqualToString:[AvatarSkinTypeEnum Shoes]]) {
+//            shoesSkin = [data getSkin];
+//        } else {
+//            NSLog(@"Cannot recognize skin type");
+//        }
+//    }
     
     NSMutableArray *groupedSkins = [[NSMutableArray alloc] init];
     [groupedSkins addObject:faceSkin];

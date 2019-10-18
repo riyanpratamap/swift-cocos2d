@@ -299,7 +299,12 @@ static CCFileUtils *fileUtils = nil;
         return nil;
     }
     
-	// Default to normal resource directory
+    NSString* targetFile = [NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES)[0] stringByAppendingPathComponent: resource];
+    if ([[NSFileManager defaultManager] fileExistsAtPath:targetFile]) {
+        return targetFile;
+    }
+
+    // Default to normal resource directory
 	return [_bundle pathForResource:resource
 							 ofType:ext
 						inDirectory:subpath];
@@ -353,6 +358,13 @@ static CCFileUtils *fileUtils = nil;
 	}
 	else if( [_fileManager fileExistsAtPath:newName] )
 		ret = newName;
+    
+    if (ret == nil) {
+        NSString* targetFile = [NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES)[0] stringByAppendingPathComponent: newName];
+        if ([[NSFileManager defaultManager] fileExistsAtPath: targetFile]) {
+            ret = targetFile;
+        }
+    }
 
 	if( ! ret )
 		CCLOGINFO(@"cocos2d: CCFileUtils: file not found: %@", [newName lastPathComponent] );
@@ -388,6 +400,13 @@ static CCFileUtils *fileUtils = nil;
 		if ([_fileManager fileExistsAtPath:newName])
 			ret = newName;
 	}
+    
+    if (ret == nil) {
+        NSString* targetFile = [NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES)[0] stringByAppendingPathComponent: filename];
+        if ([[NSFileManager defaultManager] fileExistsAtPath:targetFile]) {
+            ret = targetFile;
+        }
+    }
 	
 	return ret;
 }

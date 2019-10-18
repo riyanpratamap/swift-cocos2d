@@ -53,7 +53,7 @@ NSString * const CCBlendEquationAlpha = @"CCBlendEquationAlpha";
 
 @implementation CCBlendModeCache
 
--(id)objectForKey:(NSDictionary*)options
+-(id)objectForKey:(id)options
 {
 	CCBlendMode *blendMode = [self rawObjectForKey:options];
 	if(blendMode) return blendMode;

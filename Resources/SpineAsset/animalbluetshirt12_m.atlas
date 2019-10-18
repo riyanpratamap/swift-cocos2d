@@ -1,0 +1,27 @@
+
+animalbluetshirt12_m.png
+size: 512,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+top_center_animalbluetshirt12_m
+  rotate: false
+  xy: 2, 2
+  size: 228, 241
+  orig: 228, 241
+  offset: 0, 0
+  index: -1
+top_left_upper_arm_animalbluetshirt12_m
+  rotate: false
+  xy: 232, 36
+  size: 106, 207
+  orig: 106, 207
+  offset: 0, 0
+  index: -1
+top_right_upper_arm_animalbluetshirt12_m
+  rotate: false
+  xy: 340, 36
+  size: 106, 207
+  orig: 106, 207
+  offset: 0, 0
+  index: -1

@@ -15,7 +15,7 @@ NS_ASSUME_NONNULL_BEGIN
     SkeletonAnimation *skeletonNode;
 }
 
-+ (CCScene*)sceneWithScale:(double)scale withAtlases:(NSArray*)atlases andSkins:(nullable NSArray*)skins;
++ (CCScene*)sceneWithScale:(double)scale andSkins:(nullable NSArray*)skins;
 
 @end
 

@@ -16,7 +16,9 @@ class GLViewManager {
     func getGLAvatarView(parent: UIView) -> CCGLView? {
         // handle windows's height size that
         if self.glView == nil {
-            let glView = CCGLView(frame: parent.bounds, pixelFormat: kEAGLColorFormatRGB565)
+            let  glView = CCGLView(frame: parent.bounds, pixelFormat: kEAGLColorFormatRGB565)
+                // CCGLView(frame: parent.bounds)
+                // CCGLView(frame: parent.bounds, pixelFormat: kEAGLColorFormatRGB565)
             self.glView = glView
         } else {
             self.glView?.frame.size.height = parent.frame.height

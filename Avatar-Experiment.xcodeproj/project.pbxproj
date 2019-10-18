@@ -10,6 +10,14 @@
 		7D4A035B00301EE00821EE41 /* Pods_Avatar_ExperimentTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 043A32C3FE226B21306D3C5C /* Pods_Avatar_ExperimentTests.framework */; };
 		7FBC938DB48B01A4E05ABEEF /* Pods_Avatar_ExperimentUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 243F5C0F813359F8F14052BA /* Pods_Avatar_ExperimentUITests.framework */; };
 		8B76E6303D6B06098C5DF2A7 /* Pods_Avatar_Experiment.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C906D5A7B00ED68EA859A612 /* Pods_Avatar_Experiment.framework */; };
+		D96BC20023597061003678AE /* OpenAL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D96BC1FE23597061003678AE /* OpenAL.framework */; };
+		D96BC20123597061003678AE /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D96BC1FF23597061003678AE /* OpenGLES.framework */; };
+		D96BC2032359706D003678AE /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D96BC2022359706D003678AE /* CoreGraphics.framework */; };
+		D96BC205235970FC003678AE /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D96BC204235970FC003678AE /* QuartzCore.framework */; };
+		D96BC20723597109003678AE /* GLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D96BC20623597109003678AE /* GLKit.framework */; };
+		D9EA0A242359AE0F00473568 /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9EA0A232359AE0F00473568 /* CoreText.framework */; };
+		D9EA0A262359AE4900473568 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9EA0A252359AE4900473568 /* UIKit.framework */; };
+		D9EA0A282359AE5900473568 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9EA0A272359AE5900473568 /* Foundation.framework */; };
 		DAFCDFA52349D05200E90F23 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAFCDFA42349D05200E90F23 /* AppDelegate.swift */; };
 		DAFCDFA72349D05200E90F23 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAFCDFA62349D05200E90F23 /* ViewController.swift */; };
 		DAFCDFAA2349D05200E90F23 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DAFCDFA82349D05200E90F23 /* Main.storyboard */; };
@@ -69,8 +77,10 @@
 		DAFCE0712349D16700E90F23 /* Triangulator.c in Sources */ = {isa = PBXBuildFile; fileRef = DAFCE0432349D16700E90F23 /* Triangulator.c */; };
 		DAFCE0722349D16700E90F23 /* Attachment.c in Sources */ = {isa = PBXBuildFile; fileRef = DAFCE0442349D16700E90F23 /* Attachment.c */; };
 		DAFCE0732349D16700E90F23 /* RegionAttachment.c in Sources */ = {isa = PBXBuildFile; fileRef = DAFCE0452349D16700E90F23 /* RegionAttachment.c */; };
-		DAFCE0822349D22300E90F23 /* libcocos2d.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DAFCE07D2349D19400E90F23 /* libcocos2d.a */; };
 		DAFCE08D2349D80D00E90F23 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = DAFCE08C2349D80D00E90F23 /* libz.tbd */; };
+		DAFCE09F2349DF5A00E90F23 /* libcocos2d.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DAFCE09A2349DF4400E90F23 /* libcocos2d.a */; };
+		DAFCE0A22349E18400E90F23 /* animalbluetshirt12_m.png in Resources */ = {isa = PBXBuildFile; fileRef = DAFCE0A02349E18400E90F23 /* animalbluetshirt12_m.png */; };
+		DAFCE0A32349E18400E90F23 /* animalbluetshirt12_m.atlas in Resources */ = {isa = PBXBuildFile; fileRef = DAFCE0A12349E18400E90F23 /* animalbluetshirt12_m.atlas */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -88,23 +98,23 @@
 			remoteGlobalIDString = DAFCDFA02349D05200E90F23;
 			remoteInfo = "Avatar-Experiment";
 		};
-		DAFCE07C2349D19400E90F23 /* PBXContainerItemProxy */ = {
+		DAFCE0992349DF4400E90F23 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = DAFCE0752349D19400E90F23 /* cocos2d.xcodeproj */;
+			containerPortal = DAFCE0922349DF4300E90F23 /* cocos2d.xcodeproj */;
 			proxyType = 2;
 			remoteGlobalIDString = 5018F24D0DFDEAC400C013A5;
 			remoteInfo = "cocos2d-ios";
 		};
-		DAFCE07E2349D19400E90F23 /* PBXContainerItemProxy */ = {
+		DAFCE09B2349DF4400E90F23 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = DAFCE0752349D19400E90F23 /* cocos2d.xcodeproj */;
+			containerPortal = DAFCE0922349DF4300E90F23 /* cocos2d.xcodeproj */;
 			proxyType = 2;
 			remoteGlobalIDString = 7A4037A819E37038007B6E8F;
 			remoteInfo = "cocos2d-mac";
 		};
-		DAFCE0802349D19400E90F23 /* PBXContainerItemProxy */ = {
+		DAFCE09D2349DF4400E90F23 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = DAFCE0752349D19400E90F23 /* cocos2d.xcodeproj */;
+			containerPortal = DAFCE0922349DF4300E90F23 /* cocos2d.xcodeproj */;
 			proxyType = 2;
 			remoteGlobalIDString = 08F4AB671C6E98A1004DAAF7;
 			remoteInfo = "cocos2d-tvos";
@@ -119,6 +129,14 @@
 		46D6736223ECD5D41EC27092 /* Pods-Avatar-ExperimentUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Avatar-ExperimentUITests.debug.xcconfig"; path = "Target Support Files/Pods-Avatar-ExperimentUITests/Pods-Avatar-ExperimentUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		9D5872805679907204A7A33E /* Pods-Avatar-ExperimentTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Avatar-ExperimentTests.release.xcconfig"; path = "Target Support Files/Pods-Avatar-ExperimentTests/Pods-Avatar-ExperimentTests.release.xcconfig"; sourceTree = "<group>"; };
 		C906D5A7B00ED68EA859A612 /* Pods_Avatar_Experiment.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Avatar_Experiment.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D96BC1FE23597061003678AE /* OpenAL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenAL.framework; path = System/Library/Frameworks/OpenAL.framework; sourceTree = SDKROOT; };
+		D96BC1FF23597061003678AE /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		D96BC2022359706D003678AE /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		D96BC204235970FC003678AE /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		D96BC20623597109003678AE /* GLKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLKit.framework; path = System/Library/Frameworks/GLKit.framework; sourceTree = SDKROOT; };
+		D9EA0A232359AE0F00473568 /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
+		D9EA0A252359AE4900473568 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		D9EA0A272359AE5900473568 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		DAFCDFA12349D05200E90F23 /* Avatar-Experiment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Avatar-Experiment.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DAFCDFA42349D05200E90F23 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DAFCDFA62349D05200E90F23 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -232,8 +250,10 @@
 		DAFCE0432349D16700E90F23 /* Triangulator.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = Triangulator.c; sourceTree = "<group>"; };
 		DAFCE0442349D16700E90F23 /* Attachment.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = Attachment.c; sourceTree = "<group>"; };
 		DAFCE0452349D16700E90F23 /* RegionAttachment.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = RegionAttachment.c; sourceTree = "<group>"; };
-		DAFCE0752349D19400E90F23 /* cocos2d.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = cocos2d.xcodeproj; sourceTree = "<group>"; };
 		DAFCE08C2349D80D00E90F23 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		DAFCE0922349DF4300E90F23 /* cocos2d.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = cocos2d.xcodeproj; sourceTree = "<group>"; };
+		DAFCE0A02349E18400E90F23 /* animalbluetshirt12_m.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = animalbluetshirt12_m.png; sourceTree = "<group>"; };
+		DAFCE0A12349E18400E90F23 /* animalbluetshirt12_m.atlas */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = animalbluetshirt12_m.atlas; sourceTree = "<group>"; };
 		F4C3365F8B7921221660ECE8 /* Pods-Avatar-ExperimentTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Avatar-ExperimentTests.debug.xcconfig"; path = "Target Support Files/Pods-Avatar-ExperimentTests/Pods-Avatar-ExperimentTests.debug.xcconfig"; sourceTree = "<group>"; };
 		FF47FD832F8D45668CDEFE59 /* Pods-Avatar-ExperimentUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Avatar-ExperimentUITests.release.xcconfig"; path = "Target Support Files/Pods-Avatar-ExperimentUITests/Pods-Avatar-ExperimentUITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -243,8 +263,16 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DAFCE09F2349DF5A00E90F23 /* libcocos2d.a in Frameworks */,
+				D96BC20023597061003678AE /* OpenAL.framework in Frameworks */,
+				D96BC20123597061003678AE /* OpenGLES.framework in Frameworks */,
+				D96BC205235970FC003678AE /* QuartzCore.framework in Frameworks */,
+				D96BC20723597109003678AE /* GLKit.framework in Frameworks */,
+				D9EA0A242359AE0F00473568 /* CoreText.framework in Frameworks */,
+				D96BC2032359706D003678AE /* CoreGraphics.framework in Frameworks */,
+				D9EA0A262359AE4900473568 /* UIKit.framework in Frameworks */,
+				D9EA0A282359AE5900473568 /* Foundation.framework in Frameworks */,
 				DAFCE08D2349D80D00E90F23 /* libz.tbd in Frameworks */,
-				DAFCE0822349D22300E90F23 /* libcocos2d.a in Frameworks */,
 				8B76E6303D6B06098C5DF2A7 /* Pods_Avatar_Experiment.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -354,6 +382,8 @@
 		DAFCDFD32349D10800E90F23 /* SpineAsset */ = {
 			isa = PBXGroup;
 			children = (
+				DAFCE0A12349E18400E90F23 /* animalbluetshirt12_m.atlas */,
+				DAFCE0A02349E18400E90F23 /* animalbluetshirt12_m.png */,
 				DAFCDFD52349D11F00E90F23 /* skeleton_17d.atlas */,
 				DAFCDFD42349D11F00E90F23 /* skeleton_17d.json */,
 				DAFCDFD62349D11F00E90F23 /* skeleton_17d.png */,
@@ -518,17 +548,17 @@
 		DAFCE0742349D18600E90F23 /* cocos2d */ = {
 			isa = PBXGroup;
 			children = (
-				DAFCE0752349D19400E90F23 /* cocos2d.xcodeproj */,
+				DAFCE0922349DF4300E90F23 /* cocos2d.xcodeproj */,
 			);
 			path = cocos2d;
 			sourceTree = "<group>";
 		};
-		DAFCE0762349D19400E90F23 /* Products */ = {
+		DAFCE0932349DF4300E90F23 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				DAFCE07D2349D19400E90F23 /* libcocos2d.a */,
-				DAFCE07F2349D19400E90F23 /* libcocos2d-mac.a */,
-				DAFCE0812349D19400E90F23 /* libcocos2d-tvos.a */,
+				DAFCE09A2349DF4400E90F23 /* libcocos2d.a */,
+				DAFCE09C2349DF4400E90F23 /* libcocos2d-mac.a */,
+				DAFCE09E2349DF4400E90F23 /* libcocos2d-tvos.a */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -536,6 +566,14 @@
 		ED8891651BBFC7AE1B20932C /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				D9EA0A272359AE5900473568 /* Foundation.framework */,
+				D9EA0A252359AE4900473568 /* UIKit.framework */,
+				D9EA0A232359AE0F00473568 /* CoreText.framework */,
+				D96BC20623597109003678AE /* GLKit.framework */,
+				D96BC204235970FC003678AE /* QuartzCore.framework */,
+				D96BC2022359706D003678AE /* CoreGraphics.framework */,
+				D96BC1FE23597061003678AE /* OpenAL.framework */,
+				D96BC1FF23597061003678AE /* OpenGLES.framework */,
 				DAFCE08C2349D80D00E90F23 /* libz.tbd */,
 				C906D5A7B00ED68EA859A612 /* Pods_Avatar_Experiment.framework */,
 				043A32C3FE226B21306D3C5C /* Pods_Avatar_ExperimentTests.framework */,
@@ -640,8 +678,8 @@
 			projectDirPath = "";
 			projectReferences = (
 				{
-					ProductGroup = DAFCE0762349D19400E90F23 /* Products */;
-					ProjectRef = DAFCE0752349D19400E90F23 /* cocos2d.xcodeproj */;
+					ProductGroup = DAFCE0932349DF4300E90F23 /* Products */;
+					ProjectRef = DAFCE0922349DF4300E90F23 /* cocos2d.xcodeproj */;
 				},
 			);
 			projectRoot = "";
@@ -654,25 +692,25 @@
 /* End PBXProject section */
 
 /* Begin PBXReferenceProxy section */
-		DAFCE07D2349D19400E90F23 /* libcocos2d.a */ = {
+		DAFCE09A2349DF4400E90F23 /* libcocos2d.a */ = {
 			isa = PBXReferenceProxy;
 			fileType = archive.ar;
 			path = libcocos2d.a;
-			remoteRef = DAFCE07C2349D19400E90F23 /* PBXContainerItemProxy */;
+			remoteRef = DAFCE0992349DF4400E90F23 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		DAFCE07F2349D19400E90F23 /* libcocos2d-mac.a */ = {
+		DAFCE09C2349DF4400E90F23 /* libcocos2d-mac.a */ = {
 			isa = PBXReferenceProxy;
 			fileType = archive.ar;
 			path = "libcocos2d-mac.a";
-			remoteRef = DAFCE07E2349D19400E90F23 /* PBXContainerItemProxy */;
+			remoteRef = DAFCE09B2349DF4400E90F23 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		DAFCE0812349D19400E90F23 /* libcocos2d-tvos.a */ = {
+		DAFCE09E2349DF4400E90F23 /* libcocos2d-tvos.a */ = {
 			isa = PBXReferenceProxy;
 			fileType = archive.ar;
 			path = "libcocos2d-tvos.a";
-			remoteRef = DAFCE0802349D19400E90F23 /* PBXContainerItemProxy */;
+			remoteRef = DAFCE09D2349DF4400E90F23 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 /* End PBXReferenceProxy section */
@@ -690,6 +728,8 @@
 				DAFCDFD82349D11F00E90F23 /* skeleton_17d.atlas in Resources */,
 				DAFCE0472349D16700E90F23 /* README.md in Resources */,
 				DAFCDFD92349D11F00E90F23 /* skeleton_17d.png in Resources */,
+				DAFCE0A32349E18400E90F23 /* animalbluetshirt12_m.atlas in Resources */,
+				DAFCE0A22349E18400E90F23 /* animalbluetshirt12_m.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1010,7 +1050,7 @@
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = NO;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = GVZVUY66BX;
+				DEVELOPMENT_TEAM = N6PVX6Y4ZV;
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					"${SRCROOT}/Resources/cocos2d/cocos2d/**",
@@ -1020,6 +1060,7 @@
 					"${SRCROOT}/Resources/spine-cocos2d-objc/src",
 				);
 				INFOPLIST_FILE = "Avatar-Experiment/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -1042,7 +1083,7 @@
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = NO;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = GVZVUY66BX;
+				DEVELOPMENT_TEAM = N6PVX6Y4ZV;
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					"${SRCROOT}/Resources/cocos2d/cocos2d/**",
@@ -1052,6 +1093,7 @@
 					"${SRCROOT}/Resources/spine-cocos2d-objc/src",
 				);
 				INFOPLIST_FILE = "Avatar-Experiment/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
